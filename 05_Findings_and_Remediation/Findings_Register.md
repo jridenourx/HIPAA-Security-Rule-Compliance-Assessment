@@ -4,7 +4,7 @@
 **Assessment Period:** January 1–October 31, 2026  
 **Assessment Snapshot:** October 31, 2026  
 **Register Date:** November 3, 2026  
-**Status:** Initial Findings Register – Remediation Planning
+**Status:** Final Assessment Findings – Remediation Planning Documented
 
 ---
 
@@ -16,7 +16,7 @@ The register provides a centralized record of identified control deficiencies, d
 
 Each item is mapped to its applicable control and supporting assessment workpaper.
 
-The register will serve as the basis for the Corrective Action Plan (CAP).
+The register serves as the basis for the Corrective Action Plan (CAP).
 
 ## 2. Severity Definitions
 
@@ -32,8 +32,8 @@ Severity ratings represent the simulated assessment team's judgment based on the
 
 | Severity | Count |
 |---|---:|
-| High | 8 |
-| Moderate | 7 |
+| High | 10 |
+| Moderate | 5 |
 | Low | 0 |
 | **Total Findings** | **15** |
 
@@ -437,7 +437,7 @@ Retain incident response records, tabletop exercise documentation, escalation re
 
 ## 6. Findings by Priority
 
-### High Priority
+### High Priority – 10 Findings
 
 1. H-01-01 – Security Risk Analysis Not Updated for Material Environmental Changes.
 2. H-02-01 – Formal Risk Treatment Plan Not Established.
@@ -450,7 +450,7 @@ Retain incident response records, tabletop exercise documentation, escalation re
 9. H-12-01 – Authentication Configuration and Enforcement Not Independently Demonstrated.
 10. H-13-01 – Transmission Security Implementation Not Independently Demonstrated.
 
-### Moderate Priority
+### Moderate Priority – 5 Findings
 
 1. H-03-01 – Formal Workforce Clearance Procedures Not Established.
 2. H-05-01 – Training Completion and Follow-Up Not Fully Demonstrated.
