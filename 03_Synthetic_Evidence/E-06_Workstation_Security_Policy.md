@@ -1,165 +1,245 @@
-# E-06: Workstation Security Policy
+# E-06: Workstation Use and Security Policy
 
-**Organization:** Northstar Health Plan (Fictional)  
-**Document Owner:** IT Security Manager  
-**Document Type:** Physical and Workstation Security Policy  
-**Effective Date:** January 1, 2026  
-**Last Review Date:** January 1, 2026  
-**Classification:** Internal – Confidential  
-**Assessment References:** HIPAA Security Rule §164.310(b), §164.310(c)
+## Document Information
+
+| Field | Details |
+|---|---|
+| Organization | Northstar Health Plan (Fictional) |
+| Document Owner | IT Security Manager |
+| Document Type | Workstation Use and Security Policy |
+| Effective Date | January 1, 2026 |
+| Last Reviewed | January 15, 2026 |
+| Assessment Snapshot | October 31, 2026 |
+| Classification | Internal – Synthetic Portfolio Evidence |
+| Regulatory References | 45 CFR §164.310(b) – Workstation Use; §164.310(c) – Workstation Security |
+
+> **Important:** This document is fictional evidence created for a simulated HIPAA Security Rule compliance assessment. It does not represent an actual policy adopted by a healthcare organization.
 
 ---
 
 ## 1. Purpose
 
-This policy establishes requirements for the appropriate use and physical protection of workstations that access, create, receive, maintain, or transmit electronic protected health information (ePHI).
+This policy establishes requirements for the appropriate use and physical protection of workstations that may access, create, receive, maintain, or transmit electronic protected health information (ePHI).
 
-The objective is to prevent unauthorized access to sensitive information through physical workstation safeguards and appropriate workforce practices.
+The policy is intended to reduce the risk of unauthorized access, viewing, disclosure, or misuse of information through organizational workstations.
 
 ## 2. Scope
 
 This policy applies to:
 
-- Company-managed desktop computers and laptops.
-- Workstations used to access the claims management platform.
-- Devices used by remote and hybrid workforce members.
-- Shared workstations located within Northstar facilities.
-- Workstations used by authorized contractors and temporary personnel.
+- Company-managed laptops and desktop computers.
+- Workstations used by employees and authorized contractors.
+- Remote and hybrid workstations.
+- Workstations used to access the cloud-hosted claims management platform.
+- Workstations used to access Microsoft 365 and other organizational systems that may contain ePHI.
 
-All workforce members are responsible for following applicable workstation security requirements.
+This policy addresses workstation use and workstation security.
 
-## 3. Roles and Responsibilities
+**Out of Scope:** Device and Media Controls under 45 CFR §164.310(d), including device and media disposal and media re-use, are not assessed as part of this policy or the current portfolio assessment.
 
-| Role | Responsibility |
-|---|---|
-| IT Security Manager | Oversees workstation security requirements and policy compliance. |
-| IT Department | Configures workstation security settings and maintains device inventories. |
-| Facilities Management | Supports physical security measures at organizational facilities. |
-| Department Managers | Ensure workforce members follow workstation use requirements. |
-| Workforce Members | Protect assigned workstations and prevent unauthorized access. |
+## 3. Workstation Use
 
-## 4. Workstation Use Requirements
+**Regulatory Reference:** 45 CFR §164.310(b)
 
-Workstations must be used for authorized business activities and handled in a manner that protects sensitive organizational information.
+Northstar requires workforce members to use organizational workstations in a manner that protects sensitive information and prevents unauthorized access.
+
+### 3.1 Authorized Use
+
+Workstations must be used for legitimate business purposes and in accordance with organizational policies.
 
 Workforce members must:
 
-- Use assigned workstations for authorized business purposes.
-- Prevent unauthorized individuals from viewing information displayed on screens.
-- Lock workstations when unattended.
-- Avoid leaving sensitive information visible in shared workspaces.
-- Protect organizational devices from unauthorized use.
-- Report lost or stolen devices to the IT department.
+- Access only systems and information required for assigned job responsibilities.
+- Use organizational accounts and approved authentication methods.
+- Avoid unauthorized software installations.
+- Protect information displayed on workstation screens.
+- Report suspected unauthorized access or security incidents.
 - Follow applicable remote work security requirements.
 
-### 4.1 Remote Workstation Use
+Workstations must not be used to access or disclose ePHI for unauthorized personal or business purposes.
 
-Employees working remotely must take reasonable precautions to prevent unauthorized individuals from accessing or viewing organizational information.
+### 3.2 Screen Privacy
 
-Requirements include:
+Workforce members must take reasonable precautions to prevent unauthorized individuals from viewing sensitive information displayed on workstation screens.
 
-- Using company-managed devices when accessing systems containing ePHI.
-- Avoiding access to sensitive information in public locations where privacy cannot be maintained.
-- Securing devices when not in use.
-- Preventing family members or other unauthorized individuals from using company devices.
-- Reporting suspected device compromise or loss.
+Expected practices include:
 
-**Identified Process Limitation:** Northstar does not consistently document remote workforce acknowledgments confirming that workstation use and physical privacy requirements have been reviewed.
+- Positioning monitors away from public view where practical.
+- Avoiding the display of ePHI in public or shared environments.
+- Using privacy screens where appropriate.
+- Locking workstations when unattended.
+- Closing applications containing ePHI when no longer needed.
 
-## 5. Workstation Security Safeguards
+Employees working remotely should take additional care when accessing sensitive information in shared spaces.
 
-Northstar maintains physical and technical safeguards intended to protect workstations that access ePHI.
+### 3.3 Unattended Workstations
 
-### 5.1 Facility Access
+Workforce members must lock workstations whenever they leave their work area.
 
-Access to Northstar office locations is restricted to authorized personnel.
+Employees should not leave an active session displaying ePHI unattended.
 
-Physical access safeguards include:
+Where supported, systems should use automatic session timeout or automatic logoff settings to reduce the risk of unauthorized access.
 
-- Employee identification badges.
-- Controlled building entry points.
-- Visitor sign-in procedures.
-- Designated employee work areas.
+### 3.4 Remote Workstation Use
 
-Visitors are expected to remain within authorized areas and be accompanied when accessing restricted office spaces.
+Employees working remotely must protect organizational workstations and information from unauthorized viewing or access.
 
-**Identified Process Limitation:** Visitor access records are not consistently reviewed to verify that visitors entering areas containing workstations with access to ePHI are appropriately monitored.
+Remote workforce members are expected to:
 
-### 5.2 Workstation Placement
+- Use company-managed workstations when accessing systems containing ePHI.
+- Prevent family members, guests, or other unauthorized individuals from using organizational workstations.
+- Avoid accessing sensitive information where screens can be viewed by unauthorized individuals.
+- Lock workstations when stepping away.
+- Use approved remote access methods.
+- Report lost or stolen workstations promptly.
 
-Workstations should be positioned to reduce the likelihood of unauthorized viewing of sensitive information.
+### 3.5 Acceptable Use Restrictions
 
-Employees working in shared or public-facing areas should take appropriate precautions to prevent unauthorized individuals from viewing displayed information.
+Workforce members must not:
 
-Privacy screens may be used where appropriate.
+- Share workstation login credentials.
+- Allow unauthorized individuals to use organizational workstations.
+- Disable or bypass security controls.
+- Store ePHI in unauthorized locations.
+- Use unapproved applications or services to process ePHI.
+- Leave sensitive information visible in unsecured environments.
 
-### 5.3 Screen Locking
+## 4. Workstation Security
 
-Workstations should be locked when unattended to prevent unauthorized access.
+**Regulatory Reference:** 45 CFR §164.310(c)
 
-The IT department maintains workstation security configurations, including automatic screen-lock functionality where supported.
+Northstar must implement physical safeguards for workstations that access ePHI to restrict access to authorized users.
 
-**Identified Process Limitation:** Configuration evidence demonstrating consistent screen-lock enforcement across all managed workstations is incomplete.
+### 4.1 Physical Protection
 
-### 5.4 Device Protection
+Workstations should be located and used in environments that reduce the risk of unauthorized access.
 
-Company-managed workstations are assigned to authorized workforce members.
+Expected safeguards include:
 
-The IT department maintains an inventory of organizational devices and is responsible for coordinating device configuration, maintenance, and replacement.
+- Positioning workstations in controlled work areas where practical.
+- Restricting access to workstations to authorized personnel.
+- Securing laptops when not in use.
+- Avoiding unattended workstations in public or shared areas.
+- Protecting devices from theft or unauthorized physical access.
 
-Devices reported as lost or stolen must be reported to IT for investigation and appropriate access restrictions.
+### 4.2 Company-Managed Workstations
 
-### 5.5 Physical Disposal and Reuse
+Northstar expects employees to use company-managed workstations for access to organizational systems containing ePHI.
 
-Workstations and storage devices must be handled appropriately before disposal, reassignment, or reuse.
+Workstations should be configured and maintained to support organizational security requirements.
 
-The IT department coordinates device preparation and ensures that organizational information is addressed before equipment is reassigned or disposed of.
+Examples of expected safeguards include:
 
-**Identified Process Limitation:** Documentation supporting the sanitization and disposition of retired workstation equipment is not consistently maintained in a centralized repository.
+- Individual user authentication.
+- Screen locking.
+- Approved security software.
+- Operating system and application updates.
+- Appropriate endpoint protection.
+- Restrictions on unauthorized software.
 
-## 6. Workforce Responsibilities
+**Assessment Observation:** The synthetic evidence establishes general workstation security expectations, but complete technical configuration records were not provided for all workstations.
 
-Workforce members must complete applicable security awareness training and follow organizational workstation security requirements.
+### 4.3 Remote Workstation Protection
 
-Employees are expected to report:
+Remote workstations must be protected against unauthorized physical access.
 
-- Lost or stolen organizational devices.
-- Unauthorized physical access to work areas.
-- Suspected workstation compromise.
-- Improper access to unattended workstations.
-- Potential exposure of sensitive information.
+Employees working outside organizational facilities should:
 
-Department managers are responsible for communicating workstation security expectations to their teams.
+- Keep devices under their control.
+- Avoid leaving devices unattended in vehicles or public locations.
+- Secure devices when not in use.
+- Prevent unauthorized individuals from viewing or using the workstation.
+- Report suspected theft, loss, or unauthorized access.
 
-## 7. Monitoring and Policy Enforcement
+### 4.4 Workstation Maintenance and Reporting
 
-The IT department is responsible for maintaining workstation security configurations and supporting device inventory management.
+Employees must report workstation security concerns to IT.
 
-The IT Security Manager oversees policy compliance and coordinates corrective actions when workstation security deficiencies are identified.
+Examples include:
 
-Policy violations may be referred to management and Human Resources for appropriate follow-up.
+- Lost or stolen devices.
+- Suspected malware infections.
+- Unauthorized access.
+- Unusual system behavior.
+- Damaged equipment that may affect security.
+- Suspected exposure of ePHI.
 
-## 8. Assessment Considerations
+IT is responsible for evaluating reported issues and coordinating appropriate response activities.
 
-The assessment should evaluate whether:
+## 5. Roles and Responsibilities
 
-- Workstation use requirements are documented.
-- Physical safeguards restrict unauthorized workstation access.
-- Remote workforce members understand workstation security expectations.
-- Screen-lock settings are consistently implemented.
-- Visitor access is appropriately controlled.
-- Workstation disposal and reuse procedures are documented.
-- Supporting evidence demonstrates that workstation safeguards are operating.
+| Role | Responsibility |
+|---|---|
+| Workforce Members | Follow workstation use requirements and protect devices and displayed information. |
+| Department Managers | Reinforce workstation security expectations and report policy violations. |
+| IT | Maintain company-managed workstations and administer technical security configurations. |
+| IT Security Manager | Oversee workstation security requirements and evaluate identified risks. |
+| Human Resources | Support workforce policy acknowledgment and employee communication processes. |
 
-The existence of workstation security policies does not independently demonstrate that physical and technical safeguards are consistently implemented.
+## 6. Policy Violations
 
-## 9. Regulatory References
+Failure to follow workstation use and security requirements may result in corrective action consistent with organizational policies.
 
-**HIPAA Security Rule:**
+Examples of violations include:
 
-- 45 CFR §164.310(b) – Workstation Use.
-- 45 CFR §164.310(c) – Workstation Security.
-- 45 CFR §164.310(d)(2)(i) – Disposal.
-- 45 CFR §164.310(d)(2)(ii) – Media Re-use.
+- Allowing unauthorized individuals to use organizational workstations.
+- Leaving workstations displaying ePHI unattended.
+- Disabling security controls.
+- Using unapproved systems to access or store ePHI.
+- Failing to report a lost or stolen workstation.
 
-**Supporting Guidance:** NIST SP 800-66 Rev. 2, Implementing the HIPAA Security Rule: A Cybersecurity Resource Guide.
+Reported violations should be evaluated and documented by the appropriate management personnel.
+
+## 7. Policy Review
+
+This policy should be reviewed periodically and when significant changes occur to:
+
+- Workstation technology.
+- Remote work arrangements.
+- Organizational systems.
+- Security threats.
+- Applicable regulatory requirements.
+
+**Assessment Observation:** The last documented policy review date is January 15, 2026. The assessment did not identify evidence of a subsequent review following the July 2026 introduction of the third-party claims analytics integration.
+
+## 8. Assessment Observations
+
+| Observation ID | Observation | Potential Impact |
+|---|---|---|
+| WS-01 | The policy establishes general workstation use and security expectations. | Provides a documented basis for workforce workstation practices. |
+| WS-02 | Complete technical configuration evidence was not provided for all company-managed workstations. | Limits validation of consistent implementation of workstation safeguards. |
+| WS-03 | Evidence of periodic workstation security reviews was not available. | Limits the ability to demonstrate ongoing oversight. |
+| WS-04 | The policy's last documented review date is January 15, 2026. | The policy may not reflect changes to the technology environment after that date. |
+
+## 9. Assessment Limitations
+
+This document is synthetic evidence created for a portfolio assessment.
+
+The following limitations apply:
+
+- No physical workstations were inspected.
+- No endpoint configuration data was reviewed.
+- No remote work environments were observed.
+- No physical access testing was performed.
+- No workforce interviews were conducted.
+- No device or media disposal procedures were assessed.
+
+The policy establishes expected workstation practices but does not independently demonstrate that all safeguards are consistently implemented.
+
+## 10. Regulatory Mapping
+
+| Regulatory Reference | Requirement | Addressed By |
+|---|---|---|
+| §164.310(b) | Workstation Use | Section 3 |
+| §164.310(c) | Workstation Security | Section 4 |
+
+This document addresses Workstation Use and Workstation Security only. Facility Access Controls under §164.310(a) and Device and Media Controls under §164.310(d) are outside the current assessment scope.
+
+## 11. Document Approval
+
+| Role | Name | Approval Status |
+|---|---|---|
+| IT Security Manager | Not Assigned | Pending |
+| Compliance Officer | Not Assigned | Pending |
+
+**Document Status:** Synthetic evidence – pending review.
