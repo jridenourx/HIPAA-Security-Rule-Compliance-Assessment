@@ -1,135 +1,201 @@
-# E-03: Security Awareness and Training Records
+# E-03: Security Awareness Training Records
 
-**Organization:** Northstar Health Plan (Fictional)  
-**Document Owner:** Human Resources / IT Security  
-**Document Type:** Workforce Training Evidence Register  
-**Reporting Period:** January 1, 2026 – October 31, 2026  
-**Last Updated:** October 31, 2026  
-**Classification:** Internal – Confidential  
-**Assessment Reference:** HIPAA Security Rule §164.308(a)(5)
+## Document Information
+
+| Field | Details |
+|---|---|
+| Organization | Northstar Health Plan (Fictional) |
+| Document Owner | Human Resources / IT Security Manager |
+| Document Type | Security Awareness Training Records |
+| Reporting Period | January 1 – October 31, 2026 |
+| Assessment Snapshot | October 31, 2026 |
+| Workforce Size | Approximately 120 employees |
+| Records Included | 12 employee training records |
+| Classification | Internal – Synthetic Portfolio Evidence |
+| Regulatory Reference | 45 CFR §164.308(a)(5) – Security Awareness and Training |
+
+> **Important:** This document contains fictional training records created for a simulated HIPAA Security Rule compliance assessment. No actual employee information or training records are included.
 
 ---
 
 ## 1. Purpose
 
-This document provides a record of security awareness and training activities conducted for Northstar Health Plan workforce members.
+This document provides synthetic evidence of Northstar Health Plan's security awareness and training activities during the 2026 assessment period.
 
-The organization provides security awareness training to educate workforce members about their responsibilities for protecting electronic protected health information (ePHI), recognizing security threats, and following organizational security policies.
+The records are intended to demonstrate how the organization assigns, tracks, and documents workforce security awareness training.
 
-This register documents training assignments, completion dates, and identified gaps in workforce training records.
+The training program is intended to help workforce members recognize security threats and understand their responsibilities when handling electronic protected health information (ePHI).
 
-## 2. Training Requirements
+## 2. Training Program Overview
 
-Northstar requires workforce members to complete security awareness training during onboarding and periodically thereafter.
+Northstar maintains a security awareness training program for employees and other workforce members with access to organizational information systems.
 
-### 2.1 Training Expectations
+The program includes:
 
-| Training Activity | Requirement |
+- Initial security awareness training for new workforce members.
+- Annual security awareness refresher training.
+- Guidance on protecting ePHI.
+- Password and authentication security.
+- Phishing and suspicious email awareness.
+- Incident reporting procedures.
+- Secure workstation practices.
+- Remote work security expectations.
+
+### 2.1 Training Requirements
+
+The organization's internal training expectations are:
+
+| Training Type | Internal Requirement |
 |---|---|
-| Initial Security Training | New workforce members should complete training within 30 days of their start date. |
-| Annual Security Awareness | Workforce members are expected to complete annual refresher training. |
-| Phishing Awareness | Workforce members receive periodic reminders regarding phishing and suspicious communications. |
-| Password Security | Training covers credential protection and secure authentication practices. |
-| ePHI Protection | Training addresses appropriate handling and protection of sensitive member information. |
+| New Hire Training | Assigned during onboarding and expected to be completed within 30 calendar days of assignment. |
+| Annual Refresher | Assigned annually to applicable workforce members. |
+| Additional Training | May be assigned following security incidents, policy changes, or identified training needs. |
 
-### 2.2 Training Topics
+The 30-day onboarding deadline and annual refresher schedule are Northstar's internal policy expectations for this simulated environment. They are not represented as specific training frequencies or deadlines mandated by HIPAA.
 
-Training materials cover the following subjects:
+## 3. Training Curriculum
 
-- HIPAA privacy and security responsibilities.
-- Recognizing phishing and social engineering attempts.
-- Protecting organizational credentials.
-- Secure handling of electronic protected health information.
-- Reporting suspected security incidents.
-- Appropriate use of organizational systems.
-- Remote workforce security practices.
+The simulated training program covers the following subjects:
 
-## 3. Workforce Training Register
-
-The following register represents a sample of workforce training records maintained by Northstar.
-
-All employee identifiers and records are fictional.
-
-| Employee ID | Department | Start Date | Training Assigned | Completion Date | Status |
-|---|---|---|---|---|---|
-| EMP-001 | Claims | 01/15/2025 | 01/15/2026 | 01/20/2026 | Complete |
-| EMP-002 | Claims | 03/10/2024 | 01/15/2026 | 01/22/2026 | Complete |
-| EMP-003 | Customer Service | 06/01/2025 | 01/15/2026 | 02/05/2026 | Complete |
-| EMP-004 | IT | 09/12/2023 | 01/15/2026 | 01/18/2026 | Complete |
-| EMP-005 | Claims | 04/20/2026 | 04/20/2026 | 05/28/2026 | Complete |
-| EMP-006 | Customer Service | 02/14/2024 | 01/15/2026 | — | Overdue |
-| EMP-007 | Claims | 08/11/2025 | 01/15/2026 | 03/12/2026 | Complete |
-| EMP-008 | IT | 11/05/2024 | 01/15/2026 | — | Overdue |
-| EMP-009 | Human Resources | 07/19/2025 | 01/15/2026 | 02/01/2026 | Complete |
-| EMP-010 | Claims | 05/04/2026 | 05/04/2026 | — | Overdue |
-| EMP-011 | Customer Service | 12/01/2023 | 01/15/2026 | 01/25/2026 | Complete |
-| EMP-012 | Finance | 10/02/2026 | 10/02/2026 | — | Pending |
-
-**Register Notes:**
-
-- Training completion dates are based on available synthetic records.
-- Overdue indicates that the expected completion date has passed without documented completion.
-- Pending indicates that the employee's training assignment has not yet reached the 30-day onboarding deadline.
-- The register represents a sample of workforce records rather than the complete population of approximately 120 employees.
-
-## 4. Training Administration
-
-Human Resources coordinates workforce training assignments during onboarding.
-
-The IT Security department maintains training content and provides security awareness materials.
-
-Training completion records are maintained through the organization's learning management system (LMS).
-
-Department managers are responsible for encouraging timely completion of assigned training.
-
-## 5. Training Monitoring
-
-The organization relies on periodic LMS reporting to monitor training completion.
-
-The IT Security Manager may request training completion reports to identify overdue assignments and follow up with department managers.
-
-**Identified Process Limitations:**
-
-1. Training completion reporting is not consistently reviewed across all departments.
-2. No centralized evidence demonstrates that all approximately 120 workforce members completed annual security awareness training.
-3. Overdue training assignments are not consistently escalated to department management.
-4. Documentation of periodic phishing awareness activities is incomplete.
-5. Training records are not consistently reconciled against current workforce rosters.
-
-## 6. Supporting Evidence
-
-The following supporting records are associated with this document:
-
-| Evidence ID | Description |
+| Training Topic | Description |
 |---|---|
-| E-03-A | Sample workforce training completion register |
-| E-03-B | Security awareness training curriculum |
-| E-03-C | LMS training assignment and completion report |
+| HIPAA and ePHI Awareness | Understanding the importance of protecting sensitive health information. |
+| Password and Authentication Security | Protecting credentials and using approved authentication methods. |
+| Phishing Awareness | Recognizing suspicious emails, links, and attachments. |
+| Incident Reporting | Reporting suspected security incidents and unauthorized disclosures. |
+| Workstation Security | Protecting devices and preventing unauthorized viewing or access. |
+| Remote Work Security | Maintaining privacy and security when working outside organizational facilities. |
+| Acceptable Use | Using organizational systems and information appropriately. |
 
-These supporting records are synthetic and intended solely for this portfolio assessment.
+## 4. Training Record Sample
 
-## 7. Assessment Considerations
+The following records represent a synthetic sample of 12 employees from Northstar's approximately 120-person workforce.
 
-The assessment should evaluate whether:
+The sample includes a mixture of new hire assignments and annual refresher training.
 
-- Security awareness training is provided to applicable workforce members.
-- Training completion is documented.
-- New workforce members receive appropriate initial training.
-- Periodic security reminders and awareness activities are conducted.
-- Training records are monitored and retained.
-- Identified training deficiencies are addressed.
+| Employee ID | Training Type | Assigned Date | Completion Date | Status |
+|---|---|---|---|---|
+| EMP-001 | Annual Refresher | 01/12/2026 | 01/15/2026 | Complete |
+| EMP-002 | Annual Refresher | 01/12/2026 | 01/18/2026 | Complete |
+| EMP-003 | Annual Refresher | 01/12/2026 | 01/20/2026 | Complete |
+| EMP-004 | New Hire | 03/02/2026 | 03/16/2026 | Complete |
+| EMP-005 | New Hire | 04/20/2026 | 05/28/2026 | Complete – Late |
+| EMP-006 | Annual Refresher | 01/12/2026 | 01/22/2026 | Complete |
+| EMP-007 | New Hire | 06/15/2026 | 06/29/2026 | Complete |
+| EMP-008 | Annual Refresher | 01/12/2026 | 01/19/2026 | Complete |
+| EMP-009 | Annual Refresher | 01/12/2026 | 01/25/2026 | Complete |
+| EMP-010 | New Hire | 08/10/2026 | 08/18/2026 | Complete |
+| EMP-011 | Annual Refresher | 01/12/2026 | 01/27/2026 | Complete |
+| EMP-012 | New Hire | 10/02/2026 | Not Completed | Pending |
 
-The presence of a training program does not independently establish that all applicable workforce members have completed required training.
+### 4.1 Record Review Observations
 
-## 8. Regulatory Reference
+The sample identifies the following conditions:
 
-**HIPAA Security Rule:** 45 CFR §164.308(a)(5) – Security Awareness and Training.
+- Eleven of the twelve sampled employees have completed their assigned training.
+- One employee, EMP-005, completed onboarding training after the organization's 30-day internal deadline.
+- EMP-012 had not completed training as of October 31, 2026.
+- EMP-012's assignment was made on October 2, 2026. The employee remained within the organization's 30-day completion period at the assessment snapshot.
+- The sample does not establish the training status of the remaining workforce.
 
-Relevant implementation specifications include:
+### 4.2 Late Completion
 
-- §164.308(a)(5)(ii)(A) – Security reminders.
-- §164.308(a)(5)(ii)(B) – Protection from malicious software.
-- §164.308(a)(5)(ii)(C) – Log-in monitoring.
-- §164.308(a)(5)(ii)(D) – Password management.
+EMP-005 was assigned training on April 20, 2026, and completed it on May 28, 2026.
 
-These implementation specifications are designated Addressable under the Security Rule and should be evaluated based on reasonableness and appropriateness.
+The completion occurred 38 calendar days after assignment, exceeding the organization's 30-day internal deadline by eight days.
+
+The record is therefore classified as **Complete – Late** rather than simply Complete.
+
+Available synthetic records do not include documentation explaining the delay or demonstrating management follow-up.
+
+### 4.3 Pending Completion
+
+EMP-012 was assigned training on October 2, 2026.
+
+As of October 31, 2026, the employee had not completed the training. The assignment remained within the organization's 30-day completion period.
+
+The record is classified as Pending. It should be monitored until completion or until the internal deadline is exceeded.
+
+## 5. Training Program Administration
+
+Human Resources and the IT Security Manager share responsibility for administering the security awareness program.
+
+### Human Resources Responsibilities
+
+- Maintain workforce training assignments.
+- Assign onboarding training to new employees.
+- Track completion status.
+- Notify appropriate management personnel of overdue training.
+
+### IT Security Manager Responsibilities
+
+- Maintain security awareness training content.
+- Identify additional training needs.
+- Provide guidance on security-related topics.
+- Review training completion information.
+- Recommend corrective action when training gaps are identified.
+
+### Management Responsibilities
+
+- Ensure employees complete assigned training.
+- Follow up on overdue assignments.
+- Reinforce security expectations within their departments.
+
+## 6. Record Retention and Monitoring
+
+Training records should be maintained to demonstrate:
+
+- Employee or workforce member identifier.
+- Training assignment date.
+- Training type or subject.
+- Completion date.
+- Current completion status.
+- Follow-up actions for overdue assignments, where applicable.
+
+Training records should be reviewed periodically to identify incomplete assignments and recurring training gaps.
+
+## 7. Assessment Observations
+
+The following observations were identified from the synthetic training records:
+
+| Observation ID | Observation | Potential Impact |
+|---|---|---|
+| TR-01 | EMP-005 completed onboarding training 38 days after assignment, exceeding the internal 30-day deadline. | Demonstrates that internal training deadlines are not consistently met. |
+| TR-02 | EMP-012 had a pending training assignment as of October 31, 2026. | Requires monitoring to ensure timely completion. |
+| TR-03 | Only 12 of approximately 120 workforce members are represented in the available records. | The sample is insufficient to establish organization-wide training completion. |
+| TR-04 | Documentation of management follow-up for late or pending training was not provided. | Limits the ability to demonstrate consistent oversight and accountability. |
+
+## 8. Assessment Limitations
+
+This document represents a synthetic sample of training records.
+
+The following limitations apply:
+
+- No actual learning management system records were reviewed.
+- No training completion certificates were provided.
+- Only 12 of approximately 120 employees are represented.
+- Training content was summarized for this portfolio exercise and was not independently reviewed.
+- No evidence of management escalation or follow-up was included.
+- The sample does not establish that all workforce members completed required training.
+
+The records support a limited assessment of training program administration but are insufficient to conclude that the organization consistently meets its internal training expectations across the entire workforce.
+
+## 9. Regulatory Mapping
+
+| Regulatory Reference | Implementation Specification | Relevance |
+|---|---|---|
+| §164.308(a)(5)(ii)(A) | Security Reminders | Ongoing awareness and security reminders |
+| §164.308(a)(5)(ii)(B) | Protection from Malicious Software | Awareness of malicious software threats |
+| §164.308(a)(5)(ii)(C) | Log-in Monitoring | Awareness of appropriate system access and monitoring practices |
+| §164.308(a)(5)(ii)(D) | Password Management | Password and credential security awareness |
+
+The implementation specifications under §164.308(a)(5) are addressable. Northstar must evaluate and document how each is addressed based on whether implementation is reasonable and appropriate.
+
+## 10. Document Approval
+
+| Role | Name | Approval Status |
+|---|---|---|
+| Human Resources Representative | Not Assigned | Pending |
+| IT Security Manager | Not Assigned | Pending |
+
+**Document Status:** Synthetic evidence – pending review.
