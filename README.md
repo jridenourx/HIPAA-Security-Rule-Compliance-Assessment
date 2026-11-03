@@ -1,255 +1,210 @@
 # HIPAA Security Rule Compliance Assessment
 
-## Project Overview
-
-This project simulates a HIPAA Security Rule compliance assessment for a fictional regional health insurance organization, Northstar Health Plan.
-
-The assessment evaluates selected administrative, physical, and technical safeguards designed to protect electronic protected health information (ePHI). It uses fictional organizational policies, synthetic evidence, and a structured control assessment methodology to identify potential compliance gaps and recommend corrective actions.
-
-The project demonstrates practical skills in:
-
-- Governance, Risk, and Compliance (GRC)
-- Security control assessment and documentation
-- HIPAA Security Rule regulatory mapping
-- Risk analysis and risk management
-- Evidence review and gap identification
-- Audit documentation and reporting
-- Corrective action planning
-
-**Project Type:** Cybersecurity GRC Portfolio Project  
+**Project Type:** Simulated Compliance Assessment  
 **Organization:** Northstar Health Plan (Fictional)  
+**Assessment Framework:** HIPAA Security Rule  
+**Guidance Reference:** NIST SP 800-66 Rev. 2  
+**Assessment Period:** January 1, 2026 – October 31, 2026  
 **Assessment Snapshot:** October 31, 2026  
-**Framework:** HIPAA Security Rule, 45 CFR Part 164, Subpart C
+**Assessment Status:** Control Testing Completed – Reporting and Remediation Planning In Progress
 
 ---
 
-## Project Objectives
+## 1. Assessment Overview
 
-The objectives of this assessment are to:
+Northstar Health Plan is a fictional regional health insurance organization that administers member enrollment, eligibility verification, and claims processing.
 
-1. Define an assessment scope based on selected HIPAA Security Rule requirements.
-2. Map regulatory requirements to organizational policies and supporting evidence.
-3. Evaluate the design and documented implementation of selected security controls.
-4. Identify evidence gaps and potential control deficiencies.
-5. Assign assessment results based on available supporting documentation.
-6. Develop findings and recommended corrective actions.
-7. Communicate assessment results through a management-level summary.
+The organization employs approximately 120 workforce members and utilizes a cloud-hosted claims management platform that stores and processes electronic protected health information (ePHI).
 
----
+Approximately 40 workforce members operate under remote or hybrid work arrangements. Employees access organizational systems using company-managed devices and centralized identity management services.
 
-## Fictional Organization
+Management requested a preliminary assessment of selected HIPAA Security Rule requirements to evaluate existing security safeguards, review supporting documentation, identify potential compliance gaps, and establish remediation priorities.
 
-Northstar Health Plan is a fictional regional health insurance organization with approximately 120 employees, including approximately 40 remote or hybrid workers.
+This assessment uses entirely synthetic organizational documentation and evidence. No actual patient information, organizational records, or production systems are involved.
 
-The organization uses:
+## 2. Assessment Objectives
 
-- A cloud-hosted claims management platform.
-- Microsoft 365 for email and business collaboration.
-- Company-managed laptops and desktop workstations.
-- Remote access services.
-- A third-party cloud hosting provider.
-- A third-party claims analytics integration introduced in July 2026.
+The assessment is intended to:
 
-The organization's systems may create, receive, maintain, or transmit ePHI.
+- Evaluate selected HIPAA Security Rule standards and implementation specifications applicable to the organization's handling of ePHI.
+- Review documented security policies, procedures, and supporting evidence.
+- Determine whether selected security safeguards are implemented and supported by sufficient documentation.
+- Identify potential control deficiencies and documentation gaps.
+- Evaluate the reasonableness and appropriateness of applicable Addressable implementation specifications.
+- Document assessment findings, risk implications, and recommended corrective actions.
+- Provide management with a summary of assessment results and remediation priorities.
 
-All organizational information, policies, records, and evidence used in this project are fictional.
+## 3. Organizational Environment
 
----
+The assessment considers the following organizational systems and operational areas:
 
-## Assessment Scope
+| System / Area | Description |
+|---|---|
+| Claims Management Platform | Cloud-hosted application used to process and maintain member claims information. |
+| Identity Management System | Centralized authentication and workforce account administration. |
+| Microsoft 365 | Organizational email, collaboration, and document management. |
+| Employee Workstations | Company-managed laptops and desktops used to access organizational systems. |
+| Cloud Infrastructure | Third-party hosted infrastructure supporting the claims management platform. |
+| Workforce Operations | Approximately 120 employees across claims, customer service, IT, finance, human resources, and management. |
+| Claims Analytics Integration | Third-party integration introduced in July 2026 with access to limited claims data. |
 
-The assessment focuses on selected HIPAA Security Rule requirements across three safeguard categories.
+## 4. Assessment Scope
 
-### Administrative Safeguards
+The assessment focuses on selected HIPAA Security Rule standards across administrative, physical, and technical safeguards.
 
-- Risk Analysis – §164.308(a)(1)(ii)(A)
-- Risk Management – §164.308(a)(1)(ii)(B)
-- Information System Activity Review – §164.308(a)(1)(ii)(D)
-- Workforce Security – §164.308(a)(3)
-- Information Access Management – §164.308(a)(4)
-- Security Awareness and Training – §164.308(a)(5)
-- Security Incident Procedures – §164.308(a)(6)
-- Contingency Planning – §164.308(a)(7)
+### 4.1 Administrative Safeguards
 
-### Physical Safeguards
+The assessment includes:
 
-- Workstation Use – §164.310(b)
-- Workstation Security – §164.310(c)
+- Security Management Process:
+  - Risk Analysis — §164.308(a)(1)(ii)(A).
+  - Risk Management — §164.308(a)(1)(ii)(B).
+  - Information System Activity Review — §164.308(a)(1)(ii)(D).
+- Workforce Security — §164.308(a)(3).
+- Information Access Management — §164.308(a)(4).
+- Security Awareness and Training — §164.308(a)(5).
+- Security Incident Procedures — §164.308(a)(6).
+- Contingency Planning — §164.308(a)(7).
 
-### Technical Safeguards
+### 4.2 Physical Safeguards
 
-- Access Control – §164.312(a)
-- Audit Controls – §164.312(b)
-- Person or Entity Authentication – §164.312(d)
-- Transmission Security – §164.312(e)
+The assessment includes:
 
-### Exclusions
+- Workstation Use — §164.310(b).
+- Workstation Security — §164.310(c).
 
-The assessment does not formally evaluate every requirement within the HIPAA Security Rule.
+### 4.3 Technical Safeguards
 
-Excluded areas include:
+The assessment includes:
 
-- Assigned Security Responsibility.
-- Sanction Policy.
-- Facility Access Controls.
-- Device and Media Controls.
-- Integrity Controls.
-- Business Associate Contracts and other organizational requirements.
-- Evaluation requirements.
-- Policies, procedures, and documentation requirements as separate assessment objectives.
+- Access Control — §164.312(a).
+- Audit Controls — §164.312(b).
+- Person or Entity Authentication — §164.312(d).
+- Transmission Security — §164.312(e).
 
-These exclusions are documented in the assessment scope.
+Applicable implementation specifications are evaluated individually within the assessment.
 
----
+### 4.4 Exclusions
 
-## Repository Structure
+The assessment does not evaluate the complete HIPAA Security Rule.
 
-```text
-HIPAA-Security-Rule-Compliance-Assessment/
-│
-├── README.md
-│
-├── 01_Assessment_Scope/
-│   └── Assessment_Scope.md
-│
-├── 02_Control_Assessment/
-│   └── HIPAA_Control_Matrix.md
-│
-└── 03_Synthetic_Evidence/
-    ├── E-01_Security_Risk_Analysis.md
-    ├── E-02_Access_Control_Policy.md
-    ├── E-03_Security_Awareness_Training_Records.md
-    ├── E-04_Security_Incident_Response_Procedure.md
-    ├── E-05_Contingency_Plan.md
-    ├── E-06_Workstation_Security_Policy.md
-    ├── E-07_Audit_Logging_Procedure.md
-    └── E-08_Transmission_Security_Policy.md
-```
+The following areas are outside the formal assessment scope:
 
----
+- Sanction Policy — §164.308(a)(1)(ii)(C).
+- Assigned Security Responsibility — §164.308(a)(2).
+- Facility Access Controls — §164.310(a).
+- Device and Media Controls — §164.310(d).
+- Integrity — §164.312(c).
+- Business Associate Contracts and Other Arrangements — §164.308(b).
+- Evaluation — §164.308(a)(8).
+- Organizational Requirements — §164.314.
+- Policies and Procedures and Documentation — §164.316.
 
-## Assessment Methodology
+These exclusions are scope limitations for this portfolio exercise and should not be interpreted as indicating that the requirements are inapplicable to an actual regulated organization.
 
-The project uses a structured evidence-based assessment approach.
+## 5. Assessment Methodology
 
-### 1. Scope Definition
+The assessment follows a structured evidence-based approach.
 
-Identify the HIPAA Security Rule requirements included in the assessment and document organizational assumptions, boundaries, and exclusions.
+### Phase 1: Requirement Identification
 
-### 2. Regulatory Mapping
+Identify applicable HIPAA Security Rule standards and implementation specifications within the selected assessment scope.
 
-Map selected regulatory requirements and implementation specifications to the applicable organizational policies and supporting evidence.
+Determine whether individual implementation specifications are designated Required or Addressable.
 
-### 3. Evidence Collection
+### Phase 2: Control Mapping
 
-Review synthetic organizational documentation, including policies, procedures, risk analysis records, and training records.
+Map selected regulatory requirements to expected organizational safeguards and supporting synthetic evidence.
 
-### 4. Control Assessment
+Establish traceability between regulatory references, control assessment areas, and evidence documents.
 
-Evaluate whether available documentation supports the design and implementation of each selected safeguard.
+### Phase 3: Evidence Review
 
-Assessment activities consider:
+Review synthetic organizational policies, procedures, and operational records.
 
-- Whether the required policy or procedure is documented.
-- Whether available evidence supports the stated control activity.
-- Whether identified weaknesses or inconsistencies exist.
-- Whether additional evidence or testing is necessary.
+Evaluate whether documentation supports the implementation and operation of the applicable safeguards.
 
-### 5. Gap Identification
+### Phase 4: Compliance Gap Assessment
 
-Document deficiencies, missing evidence, incomplete processes, and areas requiring additional validation.
+Compare available evidence against applicable regulatory requirements.
 
-### 6. Corrective Action Planning
+Identify:
 
-Develop recommendations to address identified deficiencies, including suggested ownership, priority, and remediation timelines.
+- Control deficiencies.
+- Documentation gaps.
+- Incomplete or inconsistent procedures.
+- Insufficient evidence of control operation.
+- Implementation specification considerations.
 
-### 7. Management Reporting
+### Phase 5: Findings Documentation
 
-Summarize assessment results, significant risks, and recommended next steps for management review.
+Document identified issues, including:
 
----
+- Finding identification number.
+- Applicable HIPAA reference.
+- Observed condition.
+- Supporting evidence.
+- Risk implications.
+- Recommended corrective action.
+- Severity or priority.
 
-## Assessment Rating Definitions
+### Phase 6: Remediation Planning
 
-The project uses the following assessment outcomes:
+Develop corrective actions, remediation priorities, suggested ownership, target dates, validation procedures, and closure criteria for identified findings.
 
-| Rating | Definition |
+### Phase 7: Management Reporting
+
+Prepare a management summary communicating assessment results, significant findings, risk considerations, and recommended remediation priorities.
+
+## 6. Assessment Status Definitions
+
+The following assessment statuses are used to communicate control conclusions.
+
+| Status | Definition |
 |---|---|
 | Effective | Available evidence supports that the control is appropriately designed and implemented for the assessed requirement. |
 | Partially Effective | Some control elements are documented or implemented, but gaps or inconsistencies remain. |
 | Ineffective | Available evidence demonstrates that the control is missing, materially deficient, or not implemented. |
 | Not Evidenced | Available documentation is insufficient to determine whether the control is implemented. |
-| Not Applicable | The requirement does not apply to the defined organizational environment, with supporting rationale documented. |
+| Not Assessed | The control has not yet been evaluated. |
+| Not Applicable | The requirement or implementation specification does not apply to the defined organizational environment, with supporting rationale documented. |
 
-An absence of documentation is not automatically treated as proof that a control does not exist. Assessment conclusions distinguish between an identified control deficiency and insufficient evidence.
+A control-level rating summarizes the overall assessment of the applicable standard. Individual implementation specifications and testing procedures may have different results.
 
----
+## 7. Assessment Limitations
 
-## Key Assessment Considerations
+- This is a simulated portfolio project using fictional organizational information and synthetic evidence.
+- The assessment covers selected HIPAA Security Rule requirements rather than the complete HIPAA regulatory framework.
+- No production systems, actual ePHI, or real organizational records were reviewed.
+- No actual interviews, technical configuration reviews, vulnerability scans, or penetration tests were performed.
+- Findings and conclusions are based solely on the synthetic evidence developed for this exercise.
+- Assessment conclusions do not establish actual compliance by a healthcare organization.
+- This project does not constitute a formal HIPAA compliance certification, legal opinion, or independent compliance audit.
 
-This project considers the distinction between required and addressable implementation specifications under the HIPAA Security Rule.
+## 8. Assessment Deliverables
 
-Addressable implementation specifications are not optional. Covered entities and business associates must assess whether implementation is reasonable and appropriate and document their decisions, including appropriate alternative measures when applicable.
+The project includes:
 
-The assessment also distinguishes between:
+- Assessment scope and methodology.
+- HIPAA Security Rule control assessment matrix.
+- Synthetic organizational policies and supporting evidence.
+- Seven control-testing workpapers covering H-01 through H-13.
+- Consolidated Findings Register.
+- Corrective Action Plan.
+- Management assessment summary.
 
-- **Control design:** Whether documented policies and procedures establish appropriate requirements.
-- **Control implementation:** Whether available evidence demonstrates that the requirements have been put into practice.
-- **Operating effectiveness:** Whether the control operates consistently over time.
+The consolidated Findings Register, Corrective Action Plan, and Management Assessment Summary are the remaining project deliverables.
 
-A written policy alone does not establish that a control operates effectively.
+## 9. Regulatory References
 
----
-
-## Project Artifacts
-
-| Artifact | Description |
-|---|---|
-| Assessment Scope | Defines assessment boundaries, objectives, assumptions, and exclusions. |
-| HIPAA Control Matrix | Maps selected HIPAA requirements to supporting evidence. |
-| E-01 Security Risk Analysis | Documents identified risks, existing safeguards, and risk analysis limitations. |
-| E-02 Access Control Policy | Covers workforce security, information access management, access control, and authentication. |
-| E-03 Security Awareness Training Records | Provides a synthetic sample of workforce training assignments and completion records. |
-| E-04 Security Incident Response Procedure | Documents the organization's incident response process. |
-| E-05 Contingency Plan | Documents backup, recovery, and emergency operations procedures. |
-| E-06 Workstation Security Policy | Addresses workstation use and workstation security. |
-| E-07 Audit Logging Procedure | Documents audit logging and information system activity review practices. |
-| E-08 Transmission Security Policy | Documents safeguards for protecting ePHI during transmission. |
-
----
-
-## Current Project Status
-
-<badge color="success">Documentation package complete</badge>
-
-The initial assessment scope, control matrix, and eight synthetic evidence documents have been developed.
-
-The next project phase will focus on:
-
-- Reviewing evidence against each selected control.
-- Developing control-specific testing procedures.
-- Documenting assessment results and supporting rationale.
-- Identifying and prioritizing findings.
-- Creating a corrective action plan.
-- Preparing a management summary.
+- U.S. Department of Health and Human Services (HHS), HIPAA Security Rule.
+- HHS, Summary of the HIPAA Security Rule.
+- HHS, Security Rule Guidance Material.
+- 45 CFR §164.306(d), Required and Addressable Implementation Specifications.
+- NIST Special Publication 800-66 Revision 2, Implementing the HIPAA Security Rule: A Cybersecurity Resource Guide.
 
 ---
 
-## Regulatory and Reference Materials
+**Assessment Status:** Control testing completed for all 13 selected controls. Consolidated findings, remediation planning, and management reporting remain in progress.
 
-The assessment is informed by the following public resources:
-
-- [HIPAA Security Rule – 45 CFR Part 164, Subpart C](https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C)
-- [HHS – Summary of the HIPAA Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)
-- [HHS – Guidance on Risk Analysis Requirements](https://www.hhs.gov/hipaa/for-professionals/security/guidance/guidance-risk-analysis/index.html)
-- [NIST SP 800-66 Rev. 2 – Implementing the HIPAA Security Rule](https://csrc.nist.gov/pubs/sp/800/66/r2/final)
-
----
-
-## Disclaimer
-
-This project is an educational portfolio simulation using fictional organizational information and synthetic evidence.
-
-It is not a formal HIPAA compliance audit, legal opinion, certification, or representation of an actual covered entity's security posture.
-
-No real patient information, production systems, or confidential organizational records were used.
+**Portfolio Disclaimer:** This scope document is part of a fictional compliance assessment created for educational and portfolio purposes. It does not represent an actual HIPAA audit, legal opinion, certification, or assessment of a real covered entity or business associate.
