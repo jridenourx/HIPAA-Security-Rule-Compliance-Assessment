@@ -7,7 +7,8 @@
 **Assessment Period:** January 1, 2026 – October 31, 2026  
 **Assessment Snapshot:** October 31, 2026  
 **Control Testing Status:** Completed  
-**Overall Control Results:** 13 Partially Effective
+**Overall Control Results:** 13 Partially Effective  
+**Reporting Status:** Completed
 
 ---
 
@@ -185,7 +186,16 @@ Control testing has been completed for all 13 selected controls.
 | Technical | 4 | 4 Partially Effective |
 | **Total** | **13** | **13 Partially Effective** |
 
-The assessment identified documentation deficiencies, incomplete processes, and limitations in evidence demonstrating implementation and operating effectiveness.
+The assessment identified 15 formal findings:
+
+| Severity | Findings |
+|---|---:|
+| High | 10 |
+| Moderate | 5 |
+| Low | 0 |
+| **Total** | **15** |
+
+One additional observation, H-06-01, concerns the lack of incident response execution evidence. It is tracked separately and is not included in the formal finding count.
 
 A Partially Effective rating does not necessarily establish that a safeguard is absent. It indicates that the available evidence does not demonstrate full implementation or operating effectiveness.
 
@@ -201,7 +211,7 @@ A Partially Effective rating does not necessarily establish that a safeguard is 
 
 ## 9. Assessment Deliverables
 
-The project includes:
+The completed project includes:
 
 - Assessment scope and methodology.
 - HIPAA Security Rule control assessment matrix.
@@ -209,9 +219,11 @@ The project includes:
 - Seven control-testing workpapers covering H-01 through H-13.
 - Consolidated Findings Register.
 - Corrective Action Plan.
-- Management assessment summary.
+- Management Assessment Summary.
 
-The consolidated Findings Register, Corrective Action Plan, and Management Assessment Summary are the next project deliverables.
+The Findings Register documents 15 formal findings, consisting of 10 High and 5 Moderate severity items. H-06-01 is maintained separately as an observation and is not included in the formal finding total.
+
+The Corrective Action Plan documents proposed remediation activities, suggested owners, target dates, validation procedures, and closure criteria. These are illustrative planning assumptions for this portfolio simulation, not actual management commitments.
 
 ## 10. Repository Structure
 
@@ -236,14 +248,21 @@ HIPAA-Security-Rule-Compliance-Assessment/
 │   ├── E-07_Audit_Logging_Procedure.md
 │   └── E-08_Transmission_Security_Policy.md
 │
-└── 04_Control_Testing/
-    ├── H-01_H-02_Risk_Analysis_and_Risk_Management_Testing.md
-    ├── H-03_H-04_Workforce_Security_and_Information_Access_Management.md
-    ├── H-05_H-06_Training_and_Incident_Procedures_Testing.md
-    ├── H-07_H-08_Contingency_and_Workstation_Security_Testing.md
-    ├── H-09_H-10_Access_Control_and_Activity_Review_Testing.md
-    ├── H-11_H-12_Audit_Controls_and_Authentication_Testing.md
-    └── H-13_Transmission_Security_Testing.md
+├── 04_Control_Testing/
+│   ├── H-01_H-02_Risk_Analysis_and_Risk_Management_Testing.md
+│   ├── H-03_H-04_Workforce_Security_and_Information_Access_Management.md
+│   ├── H-05_H-06_Training_and_Incident_Procedures_Testing.md
+│   ├── H-07_H-08_Contingency_and_Workstation_Security_Testing.md
+│   ├── H-09_H-10_Access_Control_and_Activity_Review_Testing.md
+│   ├── H-11_H-12_Audit_Controls_and_Authentication_Testing.md
+│   └── H-13_Transmission_Security_Testing.md
+│
+├── 05_Findings_and_Remediation/
+│   ├── Findings_Register.md
+│   └── Corrective_Action_Plan.md
+│
+└── 06_Management_Reporting/
+    └── Management_Assessment_Summary.md
 ```
 
 ## 11. Regulatory and Reference Materials
