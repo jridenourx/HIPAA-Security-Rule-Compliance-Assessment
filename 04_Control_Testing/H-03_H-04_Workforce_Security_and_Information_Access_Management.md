@@ -5,7 +5,7 @@
 | Field | Details |
 |---|---|
 | Organization | Northstar Health Plan (Fictional) |
-| Assessment Period | January 1 – October 31, 2026 |
+| Assessment Period | January 1–October 31, 2026 |
 | Assessment Snapshot | October 31, 2026 |
 | Assessment Area | Administrative Safeguards |
 | Assessor | Portfolio Assessment |
@@ -27,7 +27,7 @@
 | Control Name | Workforce Security |
 | Regulatory Reference | 45 CFR §164.308(a)(3) |
 | Safeguard Category | Administrative |
-| Implementation Specifications | Addressable |
+| Implementation Specifications | Authorization and/or Supervision, Workforce Clearance Procedure, and Termination Procedures – Addressable |
 | Evidence Reference | E-02: Workforce Security and Access Control Policy |
 | Assessment Rating | Partially Effective |
 
@@ -61,88 +61,57 @@ The assessment evaluates whether available evidence demonstrates that access eli
 
 | Test ID | Result | Observation |
 |---|---|---|
-| H-03.1 | Partial | E-02 assigns access approval responsibilities to managers and account administration responsibilities to IT. However, evidence demonstrating consistent supervision and review was not provided. |
-| H-03.2 | Fail | E-02 identifies clearance expectations but acknowledges that a formal written clearance procedure and consistent clearance determination records are not available. |
-| H-03.3 | Partial | E-02 documents a termination process involving HR notification and IT account deactivation. However, consistent reconciliation of separation records against active accounts is not demonstrated. |
-| H-03.4 | Partial | E-02 requires access changes when workforce responsibilities change, but supporting records demonstrating consistent execution were not provided. |
-| H-03.5 | Fail | The available evidence consists of policy documentation and does not establish consistent operation of workforce security procedures. |
+| H-03.1 | Partial | E-02 assigns access approval responsibilities to managers and account administration responsibilities to IT. However, supporting authorization and supervision records were not provided. |
+| H-03.2 | Fail | E-02 does not establish a sufficiently formal workforce clearance process defining eligibility review and documented approval before access to ePHI is granted. |
+| H-03.3 | Partial | E-02 documents termination expectations and access removal responsibilities. However, completed termination and account deactivation records were not provided. |
+| H-03.4 | Fail | The available documentation does not establish a consistently documented process for reconciling workforce status or job changes against active system access. |
+| H-03.5 | Partial | Policy expectations are documented, but the available evidence does not demonstrate consistent execution of workforce security procedures. |
 
 ## 6. Assessment Observations
 
-### Finding H-03-01: Workforce Clearance Procedures Not Fully Established
+### 6.1 Authorization and Supervision
 
-**Condition**
+E-02 assigns managers responsibility for approving workforce access and identifies IT as responsible for account administration.
 
-E-02 establishes general expectations for determining whether workforce members should receive access to ePHI.
+These responsibilities support the design of workforce authorization and supervision procedures.
 
-However, the policy acknowledges that Northstar does not have a formal written workforce clearance procedure or consistent documentation demonstrating that clearance determinations are completed before access is granted.
+However, the assessment did not receive access request records, approval documentation, or other evidence demonstrating consistent execution.
 
-The policy does not establish a sufficiently documented process for recording and retaining workforce clearance decisions.
+### 6.2 Workforce Clearance
 
-**Criteria**
+E-02 includes general workforce clearance expectations but does not establish a sufficiently formal process defining eligibility review, required approvals, and documentation before access to ePHI is granted.
 
-45 CFR §164.308(a)(3)(ii)(B) addresses workforce clearance procedures intended to determine whether access to ePHI is appropriate.
+The absence of a clearly defined and documented clearance process represents a control design deficiency.
 
-**Cause**
+### 6.3 Termination Procedures
 
-The available documentation establishes general workforce authorization expectations but does not demonstrate a formalized clearance process with defined documentation and review requirements.
-
-**Effect / Risk**
-
-Individuals may receive access without sufficient documentation demonstrating that their access eligibility and appropriateness were evaluated. This could increase the risk of inappropriate workforce access to ePHI.
-
-**Recommendation**
-
-Northstar should:
-
-1. Establish a documented workforce clearance procedure.
-2. Define the information and approvals required before access eligibility is established.
-3. Identify the responsibilities of HR, managers, and IT.
-4. Document clearance determinations and retain supporting records.
-5. Establish a process for reviewing clearance requirements when workforce circumstances change.
-
-**Priority:** High
-
-### Finding H-03-02: Termination and Workforce Status Changes Not Consistently Reconciled
-
-**Condition**
-
-E-02 documents procedures requiring HR to notify IT when an employee or contractor separates from the organization.
-
-The policy also identifies the need to remove or modify access when workforce responsibilities change.
+E-02 documents expectations for removing workforce access when employment ends.
 
 However, the evidence does not demonstrate a consistent reconciliation process comparing HR separation records and workforce changes against active system accounts.
 
-**Criteria**
+### 6.4 Findings
 
-45 CFR §164.308(a)(3)(ii)(C) addresses procedures for terminating access to ePHI when the employment of a workforce member ends or as otherwise required.
+**H-03-01 – Formal Workforce Clearance Procedures Not Established**
 
-**Cause**
+- **Severity:** Moderate
+- **Condition:** E-02 includes general workforce clearance expectations but does not establish a sufficiently formal process defining eligibility review, required approvals, and documentation before access to ePHI is granted.
+- **Risk:** Without a defined clearance process, workforce members may receive access before appropriate eligibility and authorization checks are completed.
+- **Recommendation:** Establish a documented workforce clearance procedure defining eligibility review, responsible personnel, approval requirements, timing, and retention of supporting records.
+- **Management Response:** Pending
 
-The available documentation does not demonstrate a consistently documented process for reconciling workforce status changes against active system access.
+**H-03-02 – Workforce Access Changes and Terminations Not Consistently Demonstrated**
 
-**Effect / Risk**
+- **Severity:** High
+- **Condition:** E-02 documents termination and access modification expectations, but the available evidence does not demonstrate a consistent process for reconciling workforce separations and job changes against active system accounts.
+- **Risk:** Former workforce members or individuals whose job responsibilities have changed may retain access that is no longer appropriate.
+- **Recommendation:** Establish a documented HR-to-IT notification process, define expected timelines for disabling accounts, reconcile workforce separation records against active accounts, document completed access removal, and review access following internal transfers or changes in responsibilities.
+- **Management Response:** Pending
 
-Former workforce members or individuals whose job responsibilities have changed may retain access that is no longer appropriate.
+## 7. H-03 Overall Assessment
 
-**Recommendation**
+**Overall Rating: Partially Effective**
 
-Northstar should:
-
-1. Establish a documented HR-to-IT termination notification process.
-2. Define expected timelines for disabling accounts.
-3. Reconcile workforce separation records against active accounts.
-4. Document completed access removal.
-5. Review access following internal transfers or changes in job responsibilities.
-6. Retain evidence of completed termination and access modification activities.
-
-**Priority:** High
-
-## 7. Overall Assessment
-
-<badge color="warning">Partially Effective</badge>
-
-Northstar has documented workforce security expectations, including manager authorization, IT account administration, workforce clearance considerations, and termination procedures.
+Northstar has documented workforce security expectations, including manager authorization, IT account administration, clearance considerations, and termination procedures.
 
 However, the available evidence identifies deficiencies in formal workforce clearance procedures and does not demonstrate consistent execution of termination and workforce status change processes.
 
@@ -162,7 +131,7 @@ The absence of supporting records also limits the ability to establish that work
 | Control Name | Information Access Management |
 | Regulatory Reference | 45 CFR §164.308(a)(4) |
 | Safeguard Category | Administrative |
-| Implementation Specifications | Required and Addressable, as applicable |
+| Implementation Specifications | Access Authorization and Access Establishment and Modification – Addressable; Clearinghouse Isolation – Not Applicable to defined environment |
 | Evidence Reference | E-02: Workforce Security and Access Control Policy |
 | Assessment Rating | Partially Effective |
 
@@ -204,9 +173,15 @@ The assessment also considers whether the organization performs appropriate acce
 
 ## 6. Assessment Observations
 
-### Finding H-04-01: Periodic Access Reviews Not Consistently Documented
+### 6.1 Access Authorization and Provisioning
 
-**Condition**
+E-02 establishes manager approval and IT provisioning responsibilities and documents expectations for role-based access.
+
+However, the assessment did not receive individual access request records, approval documentation, or account provisioning records to validate that these procedures are consistently followed.
+
+This represents an evidence limitation rather than proof that the access authorization process is absent.
+
+### 6.2 Periodic Access Reviews
 
 E-02 establishes an expectation that managers and system owners periodically review user access to confirm that permissions remain appropriate.
 
@@ -220,42 +195,15 @@ The assessment did not receive supporting access review records showing:
 - Identified excessive or inappropriate permissions.
 - Corrective actions resulting from the review.
 
-**Criteria**
+### 6.3 Finding
 
-45 CFR §164.308(a)(4)(ii)(B) addresses access authorization, while §164.308(a)(4)(ii)(C) addresses establishing and modifying access to ePHI.
+**H-04-01 – Periodic Access Reviews Not Consistently Documented**
 
-Access management processes should support appropriate authorization and continued access based on workforce responsibilities.
-
-**Cause**
-
-The policy establishes periodic access review expectations but does not demonstrate a consistently implemented review schedule and supporting documentation process.
-
-**Effect / Risk**
-
-Workforce members may retain unnecessary or excessive permissions. Inappropriate access could increase the risk of unauthorized use or disclosure of ePHI.
-
-**Recommendation**
-
-Northstar should:
-
-1. Establish a recurring access review schedule.
-2. Identify systems containing or providing access to ePHI.
-3. Require managers or system owners to review assigned permissions.
-4. Document review completion and approval.
-5. Track and resolve excessive or inappropriate permissions.
-6. Retain evidence of completed reviews and resulting corrective actions.
-
-**Priority:** High
-
-### Additional Observation: Access Authorization and Provisioning Evidence
-
-E-02 documents manager approval and IT provisioning responsibilities.
-
-However, the assessment did not receive individual access request records, approval documentation, or account provisioning records to validate that these procedures are consistently followed.
-
-This represents an evidence limitation rather than proof that the access authorization process is absent.
-
-Additional evidence should be obtained during a more comprehensive assessment.
+- **Severity:** High
+- **Condition:** E-02 establishes an expectation that managers and system owners periodically review user access to confirm that permissions remain appropriate. However, the available evidence does not demonstrate that access reviews are consistently completed and documented across all systems containing ePHI.
+- **Risk:** Workforce members may retain unnecessary or excessive permissions. Inappropriate access could increase the risk of unauthorized use or disclosure of ePHI.
+- **Recommendation:** Establish a recurring access review schedule, identify systems containing ePHI, require managers or system owners to review assigned permissions, document review completion and approval, track and resolve excessive permissions, and retain evidence of completed reviews and corrective actions.
+- **Management Response:** Pending
 
 ## 7. Applicability Assessment
 
@@ -269,9 +217,9 @@ The specification is therefore considered not applicable to the current assessme
 
 This determination is based on the fictional organization's documented operating model and should be revisited if its business activities change.
 
-## 8. Overall Assessment
+## 8. H-04 Overall Assessment
 
-<badge color="warning">Partially Effective</badge>
+**Overall Rating: Partially Effective**
 
 Northstar has documented access authorization and account management expectations, including manager approval, role-based permissions, IT provisioning, and access modification procedures.
 
@@ -283,11 +231,11 @@ The lack of documented access reviews creates a risk that users may retain permi
 
 ---
 
-# 9. Summary of Testing Results
+## 9. Summary of Testing Results
 
 | Control ID | Control Name | Testing Results | Assessment Rating | Findings |
 |---|---|---|---|---|
-| H-03 | Workforce Security | 2 Partial / 2 Fail / 1 Partial | Partially Effective | H-03-01, H-03-02 |
+| H-03 | Workforce Security | 3 Partial / 2 Fail | Partially Effective | H-03-01, H-03-02 |
 | H-04 | Information Access Management | 3 Partial / 1 Fail / 1 Not Applicable | Partially Effective | H-04-01 |
 
 ## 10. Evidence Limitations
