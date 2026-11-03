@@ -1,40 +1,45 @@
 # H-09 and H-10 Control Testing Workpaper
+
 **Project:** Northstar Health Plan – HIPAA Security Rule Compliance Assessment  
 **Assessment Period:** January 1–October 31, 2026  
 **Assessment Snapshot:** October 31, 2026  
 **Assessment Type:** Simulated Compliance Assessment  
-**Prepared By:** Security Compliance Assessment Team  
-**Workpaper Status:** Final – Portfolio Simulation
+**Evidence Reviewed:** E-02 and E-07  
+**Workpaper Status:** Completed – Synthetic Documentation Review
 
 ---
 
 ## 1. Workpaper Purpose
 
-This workpaper documents the assessment of two HIPAA Security Rule requirements:
+This workpaper documents the assessment of:
 
-- **H-09 – Access Control:** 45 CFR §164.312(a)
-- **H-10 – Information System Activity Review:** 45 CFR §164.308(a)(1)(ii)(D)
+- H-09 – Access Control: 45 CFR §164.312(a)
+- H-10 – Information System Activity Review: 45 CFR §164.308(a)(1)(ii)(D)
 
 The objective is to evaluate whether Northstar has documented safeguards and supporting evidence demonstrating that access to electronic protected health information (ePHI) is appropriately controlled and that information system activity is reviewed.
 
-This assessment distinguishes between documented control design and evidence demonstrating that controls are configured and operating effectively.
+The assessment distinguishes between documented control design and evidence demonstrating implementation and operating effectiveness.
 
 ## 2. Evidence Reviewed
 
 | Evidence ID | Document | Purpose |
 |---|---|---|
 | E-02 | Access Control Policy | Documents user access requirements, emergency access, session management, and encryption expectations. |
-| E-07 | Audit Logging Procedure | Documents logging expectations and procedures for reviewing information system activity. |
+| E-07 | Audit Logging and Monitoring Procedure | Documents logging expectations, activity review procedures, and sample monitoring records. |
 
-No production system configurations, access exports, audit logs, completed review records, or system-generated reports were provided for this assessment.
+No production system configurations, access exports, audit log samples, or technical testing results were provided.
 
-## 3. H-09 – Access Control
+---
+
+# H-09 – Access Control
 
 **Regulatory Reference:** 45 CFR §164.312(a)
 
-**Control Objective:** Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to authorized persons or software programs.
+## 3. Control Objective
 
-### 3.1 Control Requirements
+Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to authorized persons or software programs.
+
+### 3.1 Implementation Specifications
 
 | Implementation Specification | Classification | Assessment Focus |
 |---|---|---|
@@ -43,7 +48,7 @@ No production system configurations, access exports, audit logs, completed revie
 | §164.312(a)(2)(iii) – Automatic Logoff | Addressable | Electronic sessions terminate after a predetermined period of inactivity when reasonable and appropriate. |
 | §164.312(a)(2)(iv) – Encryption and Decryption | Addressable | Mechanisms are implemented to encrypt and decrypt ePHI when reasonable and appropriate. |
 
-*Addressable implementation specifications require an assessment of reasonableness and appropriateness. They are not automatically optional.*
+Addressable implementation specifications require an assessment of reasonableness and appropriateness. They are not automatically optional.
 
 ### 3.2 Testing Procedures and Results
 
@@ -105,7 +110,7 @@ E-02 documents role-based access expectations and restrictions on routine shared
 
 ### 3.5 H-09 Overall Assessment
 
-<text>**Overall Rating: Partially Effective**</text>
+**Overall Rating: Partially Effective**
 
 Northstar has documented access control requirements covering unique user identification, emergency access, automatic logoff, encryption, and role-based access. However, emergency access documentation requires additional detail, and technical configuration evidence was not provided to demonstrate that safeguards are implemented consistently.
 
@@ -113,11 +118,13 @@ The assessment does not conclude that these safeguards are absent. It concludes 
 
 ---
 
-## 4. H-10 – Information System Activity Review
+# H-10 – Information System Activity Review
 
 **Regulatory Reference:** 45 CFR §164.308(a)(1)(ii)(D)
 
-**Control Objective:** Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.
+## 4. Control Objective
+
+Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.
 
 ### 4.1 Control Overview
 
@@ -134,47 +141,62 @@ For H-10, the assessment focuses on whether Northstar has established a review p
 | H-10.1 | Determine whether a documented procedure exists for reviewing information system activity records. | E-07 | Pass |
 | H-10.2 | Determine whether the procedure identifies relevant activity records, such as audit logs, access reports, and security-related records. | E-07 | Pass |
 | H-10.3 | Determine whether responsibilities and review expectations are documented. | E-07 | Pass |
-| H-10.4 | Obtain completed activity review records or reviewer signoffs to verify that reviews are performed. | E-07 | Not Evidenced |
+| H-10.4 | Obtain completed activity review records or reviewer signoffs to verify that reviews are performed. | E-07 | Partial |
 | H-10.5 | Determine whether exceptions identified during reviews are documented, investigated, and escalated. | E-07 | Not Evidenced |
-| H-10.6 | Determine whether review records demonstrate consistent execution during the assessment period. | E-07 | Not Evidenced |
+| H-10.6 | Determine whether review records demonstrate consistent execution during the assessment period. | E-07 | Partial |
 
 ### 4.3 Testing Results and Observations
 
 **Documented Review Procedure**
 
-E-07 establishes an audit logging and activity review procedure. The documentation identifies expectations for reviewing information system activity and provides a foundation for Northstar's monitoring process.
+E-07 establishes an audit logging and activity review procedure. The document identifies the IT Security Manager as responsible for overseeing periodic reviews and describes activity intended to identify unusual authentication activity, unexpected access, suspicious privileged actions, and other potentially unauthorized activity.
 
-This supports the design of the control.
+The procedure supports the design of the control. However, it does not establish a formally approved review schedule for all systems containing ePHI.
 
 **Review Execution Evidence**
 
-No completed log review records, review reports, reviewer signoffs, or other evidence demonstrating actual review execution was provided.
+E-07 includes four sample monitoring records:
 
-As a result, the assessment could not verify whether the documented review process was consistently performed during the assessment period.
+| Review ID | Review Date | System | Activity Reviewed | Result | Documentation Status |
+|---|---|---|---|---|---|
+| MON-001 | February 15, 2026 | Identity Management | Failed authentication attempts | No significant findings | Complete |
+| MON-002 | April 20, 2026 | Claims Platform | User access activity | Unusual activity identified | Incomplete |
+| MON-003 | June 30, 2026 | Microsoft 365 | Authentication activity | No significant findings | Complete |
+| MON-004 | September 25, 2026 | Claims Platform | Administrative activity | No significant findings reported | Incomplete |
+
+The records provide evidence that selected monitoring activities were documented during the assessment period. Two records are marked Complete and two are marked Incomplete.
+
+However, the records are identified as samples and do not represent a complete inventory of monitoring activities. The assessment could not establish whether reviews were performed consistently across all systems containing ePHI or according to a formally approved schedule.
 
 **Exception Identification and Follow-Up**
 
-No evidence was provided demonstrating how exceptions identified during activity reviews are documented, investigated, assigned, and resolved.
+MON-002 identifies unusual activity within the claims platform but is marked Incomplete. No supporting investigation record, escalation documentation, resolution, or incident tracking evidence was provided.
 
-Without supporting records, the assessment could not determine whether suspicious or unauthorized activity is consistently escalated and addressed.
+The available evidence therefore does not establish whether the identified activity was fully investigated and appropriately addressed.
 
-### 4.4 Findings
+**Review Coverage and Frequency**
 
-**H-10-01 – Information System Activity Review Operating Evidence Not Provided**
+E-07 acknowledges that a formally approved review schedule has not been established for all systems containing ePHI. The sample records cover three systems, but do not demonstrate complete system coverage or consistent review frequency.
+
+### 4.4 Finding
+
+**H-10-01 – Information System Activity Review Documentation and Follow-Up Incomplete**
 
 - **Severity:** Moderate
-- **Condition:** E-07 documents an activity review procedure, but completed review records, reviewer signoffs, and evidence of exception follow-up were not provided.
-- **Risk:** Without evidence of completed reviews, Northstar may be unable to demonstrate that potentially unauthorized or suspicious activity is identified and addressed in a timely manner.
-- **Recommendation:** Retain periodic activity review records identifying the reviewer, review date, systems or log sources examined, exceptions identified, investigation results, and corrective actions taken. Establish a consistent process for tracking and closing identified exceptions.
+- **Condition:** E-07 contains four sample monitoring records, including two marked Complete and two marked Incomplete. The records demonstrate that selected monitoring activities were documented. However, the sample does not establish consistent review coverage across all systems containing ePHI. In addition, MON-002 identifies unusual claims platform activity but does not include sufficient supporting investigation or follow-up documentation.
+- **Risk:** Incomplete review documentation and follow-up may limit Northstar's ability to demonstrate that potentially unauthorized or suspicious activity is consistently identified, investigated, and addressed.
+- **Recommendation:** Establish a formally approved activity review schedule covering systems containing ePHI. Retain review records identifying the reviewer, review date, system or log source, activity examined, exceptions identified, investigation results, escalation decisions, and corrective actions. Complete and retain supporting documentation for MON-002 and other incomplete monitoring records.
 - **Management Response:** Pending
 
 ### 4.5 H-10 Overall Assessment
 
-<text>**Overall Rating: Partially Effective**</text>
+**Overall Rating: Partially Effective**
 
-Northstar has documented an activity review procedure through E-07. However, the assessment could not verify that reviews were consistently performed or that identified exceptions were appropriately investigated and resolved.
+Northstar has documented an activity review procedure and provided four sample monitoring records. Two records are marked Complete, while two are marked Incomplete.
 
-The absence of review records is an evidence limitation and does not establish that Northstar has never performed activity reviews.
+The evidence supports that selected monitoring activities were documented during the assessment period. However, the assessment could not verify consistent review coverage across all systems containing ePHI, establish a formally approved review schedule, or confirm that identified unusual activity was fully investigated and resolved.
+
+The assessment does not conclude that Northstar failed to perform all activity reviews. It concludes that the available sample and supporting documentation are insufficient to demonstrate consistent operation and complete exception follow-up.
 
 ---
 
@@ -189,20 +211,21 @@ The absence of review records is an evidence limitation and does not establish t
 
 1. **Access control documentation exists:** E-02 establishes requirements for unique user identification, emergency access, session management, encryption, and role-based access.
 2. **Technical validation is limited:** System configuration evidence was not provided to demonstrate consistent implementation of access safeguards.
-3. **Activity review procedures exist:** E-07 documents the expected review process.
-4. **Operating evidence is incomplete:** Completed activity reviews, reviewer signoffs, and exception follow-up records were not provided.
+3. **Activity review procedures exist:** E-07 documents the expected review process and includes four sample monitoring records.
+4. **Monitoring documentation is incomplete:** Two sample records are marked Incomplete, including one that identifies unusual activity without sufficient follow-up evidence.
+5. **Review coverage requires improvement:** The evidence does not demonstrate a formally approved review schedule or consistent coverage across all systems containing ePHI.
 
 ### 5.2 Evidence Limitations
 
-The assessment relied on synthetic policy and procedure documentation. No production system access, configuration exports, audit logs, completed review records, or technical testing results were available.
+The assessment relied on synthetic policy, procedure, and sample monitoring documentation. No production system access, configuration exports, raw audit logs, or independent technical testing results were available.
 
-Accordingly, conclusions reflect the documentation provided and the limitations of the simulated assessment. A Partially Effective rating does not necessarily mean a control is absent; it indicates that the available evidence does not demonstrate full implementation or operating effectiveness.
+Conclusions reflect the documentation provided and the limitations of the simulated assessment. A Partially Effective rating does not necessarily mean a control is absent; it indicates that the available evidence does not demonstrate full implementation or operating effectiveness.
 
 ## 6. Conclusion
 
 Based on the evidence reviewed, H-09 and H-10 are assessed as **Partially Effective**.
 
-Northstar has documented policies and procedures supporting access control and information system activity review. However, additional documentation and operating evidence are needed to demonstrate that safeguards are implemented consistently and that activity reviews are performed and exceptions are addressed.
+Northstar has documented policies and procedures supporting access control and information system activity review. Additional documentation and technical evidence are needed to demonstrate that access safeguards are consistently configured and that activity reviews are performed, documented, and followed through to resolution.
 
 ---
 
