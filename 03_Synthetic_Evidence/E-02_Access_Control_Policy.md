@@ -1,188 +1,343 @@
-# E-02: Access Control Policy and Procedures
+# E-02: Workforce Security and Access Control Policy
 
-**Organization:** Northstar Health Plan (Fictional)  
-**Document Owner:** IT Security Manager  
-**Document Type:** Security Policy and Procedures  
-**Effective Date:** January 1, 2026  
-**Last Review Date:** January 1, 2026  
-**Classification:** Internal – Confidential  
-**Assessment References:** HIPAA Security Rule §164.308(a)(3), §164.312(a)
+## Document Information
+
+| Field | Details |
+|---|---|
+| Organization | Northstar Health Plan (Fictional) |
+| Document Owner | IT Security Manager |
+| Document Type | Workforce Security and Access Control Policy |
+| Effective Date | January 1, 2026 |
+| Last Reviewed | January 15, 2026 |
+| Assessment Snapshot | October 31, 2026 |
+| Classification | Internal – Synthetic Portfolio Evidence |
+| Regulatory References | 45 CFR §164.308(a)(3), §164.308(a)(4), §164.312(a), and §164.312(d) |
+
+> **Important:** This document is fictional evidence created for a simulated HIPAA Security Rule compliance assessment. It does not represent an actual policy adopted by a healthcare organization.
 
 ---
 
 ## 1. Purpose
 
-This policy establishes requirements for granting, modifying, reviewing, and terminating workforce access to organizational systems containing electronic protected health information (ePHI).
+This policy establishes requirements for workforce security, user access authorization, account management, and authentication for Northstar Health Plan's information systems.
 
-The purpose is to ensure that access to sensitive information is limited to authorized personnel based on their job responsibilities and operational requirements.
+The policy is intended to protect electronic protected health information (ePHI) by ensuring that workforce members receive appropriate access based on their job responsibilities and that access is modified or removed when no longer required.
+
+The policy addresses the following areas:
+
+- Workforce authorization and supervision.
+- Workforce clearance procedures.
+- Workforce termination procedures.
+- Information access authorization and modification.
+- Unique user identification.
+- Emergency access procedures.
+- Automatic logoff.
+- Encryption and decryption.
+- Person or entity authentication.
 
 ## 2. Scope
 
 This policy applies to:
 
-- All Northstar employees and workforce members.
-- Contractors and temporary personnel authorized to access organizational systems.
-- IT administrators responsible for user account management.
-- Systems and applications that create, receive, maintain, or transmit ePHI.
+- Employees.
+- Contractors.
+- Temporary workforce members.
+- Other individuals authorized to access Northstar systems.
+- IT personnel responsible for account administration.
+- Managers and system owners responsible for approving access.
 
-Covered systems include the cloud-hosted claims management platform, identity management system, Microsoft 365, and employee workstations.
+The policy applies to systems that create, receive, maintain, or transmit ePHI, including:
 
-## 3. Roles and Responsibilities
+- The cloud-hosted claims management platform.
+- Microsoft 365 services used for business communications and document storage.
+- Managed workstations.
+- Remote access services.
+- Third-party services authorized to process or access organizational information.
+
+## 3. Workforce Security
+
+**Regulatory Reference:** 45 CFR §164.308(a)(3)
+
+Northstar is responsible for ensuring that workforce members receive appropriate access to information systems based on their assigned duties and responsibilities.
+
+### 3.1 Authorization and Supervision
+
+Managers are responsible for identifying the access requirements associated with a workforce member's job responsibilities.
+
+Before access is granted:
+
+1. The manager identifies the systems and information required for the employee's role.
+2. The manager submits or approves the appropriate access request.
+3. IT verifies the requested access and provisions the account.
+4. Access is limited to the permissions necessary for assigned job responsibilities.
+5. Managers are responsible for notifying IT when job responsibilities change.
+
+Workforce members must not access information outside their authorized responsibilities.
+
+Managers and system owners are expected to monitor workforce access and report inappropriate access or suspected misuse.
+
+### 3.2 Workforce Clearance Procedures
+
+Northstar should establish procedures to determine whether an individual requires access to ePHI and whether that access is appropriate based on the individual's role and responsibilities.
+
+The clearance process should consider:
+
+- The individual's employment or contractual status.
+- The business justification for access.
+- The sensitivity of the information involved.
+- The individual's assigned job responsibilities.
+- Required approvals before access is granted.
+
+Workforce clearance is separate from technical account provisioning. A determination that an individual is eligible for access does not automatically authorize access to every system.
+
+**Assessment Observation:**
+
+Available synthetic evidence does not demonstrate a formal written workforce clearance or screening procedure. Documentation showing consistent clearance determinations before access is granted is also incomplete.
+
+This represents a documentation and process gap requiring further evaluation. This policy does not establish that a particular background check is required by HIPAA.
+
+### 3.3 Workforce Termination Procedures
+
+When an employee or contractor separates from Northstar, access to organizational systems must be removed promptly.
+
+The termination process should include:
+
+1. Human Resources notifies IT of the separation.
+2. IT identifies the individual's active accounts and system access.
+3. Accounts are disabled or otherwise restricted.
+4. Physical access credentials and organizational equipment are addressed through applicable procedures.
+5. Completion of access removal is documented.
+6. The termination record is retained for review.
+
+Managers must notify IT when an individual's responsibilities change and existing access is no longer appropriate.
+
+**Assessment Observation:**
+
+The synthetic evidence identifies a potential gap in reconciling workforce separation records against active accounts. The available documentation does not establish that all terminated accounts are consistently reviewed and deactivated through a documented reconciliation process.
+
+## 4. Information Access Management
+
+**Regulatory Reference:** 45 CFR §164.308(a)(4)
+
+Northstar must establish processes for authorizing and managing workforce access to systems containing ePHI.
+
+### 4.1 Access Authorization
+
+Access must be based on legitimate business requirements and assigned job responsibilities.
+
+The following principles apply:
+
+- Managers must approve access requests.
+- Access should be limited to the minimum permissions necessary for assigned duties.
+- Role-based access should be used where supported by the system.
+- System owners should review access when responsibilities change.
+- Unauthorized access requests must be denied.
+- Access changes must be documented.
+
+### 4.2 Access Establishment and Modification
+
+IT is responsible for creating accounts and modifying permissions after receiving appropriate authorization.
+
+The process should include:
+
+1. Receiving an approved access request.
+2. Confirming the individual's identity and employment or contractual status.
+3. Identifying the requested system and permissions.
+4. Provisioning access based on the approved request.
+5. Recording the account creation or modification.
+6. Notifying the requester when the change is completed.
+
+Access must be modified when workforce members transfer roles, change departments, or no longer require previously assigned permissions.
+
+### 4.3 Clearinghouse Functions
+
+Northstar Health Plan is not identified as a healthcare clearinghouse operating as part of a larger organization for purposes of this simulated assessment.
+
+The implementation specification concerning isolating clearinghouse functions under 45 CFR §164.308(a)(4)(ii)(A) is therefore considered not applicable to the fictional organization based on the defined environment.
+
+This applicability determination should be revisited if the organization's operations change.
+
+### 4.4 Periodic Access Reviews
+
+Managers and system owners are expected to periodically review user access to confirm that permissions remain appropriate.
+
+Access reviews should:
+
+- Identify active users.
+- Confirm current job responsibilities.
+- Identify unnecessary or excessive permissions.
+- Confirm that terminated users no longer have access.
+- Document review results and required changes.
+
+**Assessment Observation:**
+
+Available synthetic evidence indicates that access reviews are not consistently documented across all systems containing ePHI. A formal recurring review schedule and complete review records were not available for this assessment.
+
+## 5. Technical Access Control
+
+**Regulatory Reference:** 45 CFR §164.312(a)
+
+Northstar must implement technical safeguards to control access to systems containing ePHI.
+
+### 5.1 Unique User Identification
+
+Each workforce member must have a unique user account when accessing organizational systems.
+
+- Shared accounts are prohibited for routine workforce access.
+- User activity should be attributable to an individual account.
+- Accounts must not be shared between employees.
+- IT is responsible for creating and maintaining user accounts.
+
+**Implementation Status in Synthetic Environment:** Unique user accounts are documented as an organizational practice. Complete system-wide configuration evidence was not provided.
+
+### 5.2 Emergency Access Procedures
+
+Northstar must maintain procedures for obtaining necessary access to ePHI during an emergency or system disruption.
+
+Emergency access should:
+
+- Be limited to authorized personnel.
+- Provide access necessary to support emergency operations.
+- Be documented when used.
+- Be reviewed after the emergency.
+- Be removed or restricted when no longer required.
+
+Emergency access should not be used as a substitute for normal access authorization.
+
+**Assessment Observation:** Emergency access requirements are documented at a general level, but complete evidence of formal emergency access procedures, testing, and review was not available.
+
+### 5.3 Automatic Logoff
+
+Systems containing ePHI should use automatic logoff or session timeout features where reasonable and appropriate.
+
+The purpose is to reduce the risk of unauthorized access when a workstation or application is left unattended.
+
+System owners should evaluate session timeout settings based on:
+
+- The sensitivity of information available.
+- The environment in which the system is used.
+- The likelihood of unauthorized physical access.
+- Operational requirements.
+
+**Assessment Observation:** The policy establishes an expectation for automatic logoff, but configuration evidence demonstrating consistent implementation across relevant systems was not provided.
+
+### 5.4 Encryption and Decryption
+
+Northstar should use encryption and decryption mechanisms where reasonable and appropriate to protect ePHI.
+
+Encryption decisions should consider:
+
+- The system and information involved.
+- Whether ePHI is stored locally or in a cloud environment.
+- The sensitivity of the information.
+- The transmission method.
+- Available encryption capabilities.
+- Key management and administrative safeguards.
+
+System owners should document encryption configurations and any decisions regarding alternative safeguards.
+
+**Assessment Observation:** Encryption is referenced in organizational security documentation, but complete configuration and key management evidence was not available for all systems and transmission pathways.
+
+## 6. Person or Entity Authentication
+
+**Regulatory Reference:** 45 CFR §164.312(d)
+
+Northstar must verify that a person or entity seeking access to systems containing ePHI is the individual or entity claimed.
+
+Authentication controls should include:
+
+- Unique user accounts.
+- Password-based authentication.
+- Multi-factor authentication for remote access.
+- Protection against unauthorized use of credentials.
+- Procedures for reporting suspected credential compromise.
+
+Workforce members must not share passwords or authentication credentials.
+
+IT is responsible for administering authentication controls and responding to suspected account compromise.
+
+**Assessment Observation:**
+
+The synthetic environment documents unique user accounts, password-based authentication, and multi-factor authentication for remote access. However, complete configuration evidence and validation of authentication enforcement across all applicable systems were not provided.
+
+## 7. User Account Management Responsibilities
 
 | Role | Responsibility |
 |---|---|
-| IT Security Manager | Oversees access control requirements and policy compliance. |
-| IT Department | Creates, modifies, disables, and manages workforce accounts. |
-| Department Managers | Approve access requests and notify IT of workforce changes. |
-| Human Resources | Notifies IT of employee onboarding, transfers, and terminations. |
-| Workforce Members | Protect credentials and access only information necessary for assigned responsibilities. |
+| Human Resources | Notify IT of workforce separations and relevant employment changes. |
+| Department Managers | Approve access requests and identify role-based access requirements. |
+| System Owners | Review system permissions and confirm access remains appropriate. |
+| IT | Provision, modify, disable, and maintain user accounts. |
+| IT Security Manager | Oversee access control practices and review identified security gaps. |
+| Workforce Members | Protect credentials and use systems only for authorized purposes. |
 
-## 4. User Account Management
+## 8. Policy Exceptions
 
-### 4.1 Account Provisioning
+Exceptions to this policy must be documented and approved by the appropriate management authority.
 
-Access to organizational systems must be approved before an account is created.
+Exception documentation should include:
 
-Department managers are responsible for submitting access requests identifying:
+- The business justification.
+- The system and access involved.
+- The duration of the exception.
+- Compensating safeguards, where applicable.
+- The approving authority.
+- The date for review or expiration.
 
-- Employee name.
-- Department and job title.
-- Requested system access.
-- Required access permissions.
-- Business justification.
-- Manager approval.
+Exceptions involving access to ePHI should be reviewed by the IT Security Manager.
 
-The IT department provisions accounts based on approved requests and assigns permissions according to the employee's job responsibilities.
+## 9. Policy Review
 
-### 4.2 Unique User Identification
+This policy should be reviewed periodically and when significant changes occur to:
 
-Each workforce member is assigned a unique user account for accessing organizational systems.
+- Organizational structure.
+- Workforce access requirements.
+- Information systems.
+- Technology providers.
+- Security risks.
+- Regulatory obligations.
 
-Shared accounts are generally prohibited for routine workforce activities.
+Updates should be documented and approved by the appropriate management authority.
 
-Administrative and technical personnel may use designated privileged accounts for approved system administration activities.
+**Assessment Observation:** The policy's last documented review date is January 15, 2026. The assessment did not identify evidence of a subsequent review following the July 2026 introduction of the claims analytics integration.
 
-### 4.3 Role-Based Access
+## 10. Regulatory Mapping
 
-Access permissions within the claims management platform are assigned using predefined job roles.
+| Regulatory Reference | Requirement | Addressed By |
+|---|---|---|
+| §164.308(a)(3)(ii)(A) | Authorization and/or Supervision | Section 3.1 |
+| §164.308(a)(3)(ii)(B) | Workforce Clearance Procedure | Section 3.2 |
+| §164.308(a)(3)(ii)(C) | Termination Procedures | Section 3.3 |
+| §164.308(a)(4)(ii)(B) | Access Authorization | Section 4.1 |
+| §164.308(a)(4)(ii)(C) | Access Establishment and Modification | Section 4.2 |
+| §164.312(a)(2)(i) | Unique User Identification | Section 5.1 |
+| §164.312(a)(2)(ii) | Emergency Access Procedure | Section 5.2 |
+| §164.312(a)(2)(iii) | Automatic Logoff | Section 5.3 |
+| §164.312(a)(2)(iv) | Encryption and Decryption | Section 5.4 |
+| §164.312(d) | Person or Entity Authentication | Section 6 |
 
-Common roles include:
+The implementation specifications above include both required and addressable specifications. Addressable does not mean optional; the organization must assess whether the implementation is reasonable and appropriate and document its decision, including any appropriate alternative measure. See HHS guidance on addressable implementation specifications.
 
-| Role | General Access |
-|---|---|
-| Claims Processor | Access to claims information required for claims processing. |
-| Customer Service Representative | Limited member information necessary for customer support. |
-| Department Manager | Access to departmental reporting and approved operational records. |
-| IT Administrator | Technical administration and system configuration privileges. |
+## 11. Assessment Limitations
 
-Access permissions should reflect the minimum level of access necessary to perform assigned job responsibilities.
+This document is synthetic evidence created for a portfolio assessment.
 
-## 5. Access Modification
+The following limitations apply:
 
-When employees transfer departments, change job responsibilities, or require additional system access:
+- No actual user accounts or production configurations were reviewed.
+- No real workforce clearance or screening records were examined.
+- No live access provisioning or termination testing was performed.
+- No system-wide access review was conducted.
+- No technical authentication or session timeout configurations were independently validated.
+- The policy does not establish that all described practices are consistently implemented.
 
-1. The department manager submits an access modification request.
-2. The request identifies the required changes and business justification.
-3. The IT department reviews and implements approved modifications.
-4. Updated permissions are recorded in the access management system.
+The assessment observations identify areas where additional documentation, testing, or remediation would be needed to support a stronger conclusion.
 
-Managers are responsible for notifying IT when workforce changes require adjustments to existing access permissions.
+## 12. Document Approval
 
-## 6. Workforce Termination
+| Role | Name | Approval Status |
+|---|---|---|
+| IT Security Manager | Not Assigned | Pending |
+| Compliance Officer | Not Assigned | Pending |
 
-Human Resources is responsible for notifying IT of employee terminations.
-
-Upon notification, the IT department is responsible for disabling applicable user accounts and removing access to organizational systems.
-
-Access removal should occur promptly following termination notification.
-
-Documentation of account deactivation is maintained through IT service tickets or account administration records.
-
-**Identified Process Limitation:** The organization does not currently maintain a centralized report demonstrating that all terminated workforce members have had their access removed within a defined timeframe.
-
-The IT department relies primarily on notifications from Human Resources and department managers to initiate account termination activities.
-
-## 7. Periodic Access Reviews
-
-Department managers are expected to review workforce access permissions to verify that assigned privileges remain appropriate.
-
-Access reviews should identify:
-
-- Inactive user accounts.
-- Employees with excessive permissions.
-- Accounts belonging to former employees.
-- Inappropriate privileged access.
-- Permissions that no longer align with job responsibilities.
-
-**Identified Process Limitation:** Access reviews are performed inconsistently across departments. Evidence of completed reviews is not centrally maintained, and the organization has not established a consistent documented review schedule.
-
-## 8. Authentication Requirements
-
-Workforce members must authenticate using their assigned organizational credentials before accessing systems containing ePHI.
-
-The organization uses centralized identity management to support workforce authentication.
-
-Additional authentication requirements include:
-
-- Passwords must meet organizational complexity requirements.
-- Workforce credentials must not be shared.
-- Suspected credential compromise must be reported to IT.
-- Multifactor authentication is enabled for remote access to the claims management platform.
-
-## 9. Emergency Access Procedures
-
-The IT department maintains procedures for providing emergency access to systems containing ePHI when necessary to support critical business operations.
-
-Emergency access requests must be authorized by the IT Security Manager or an appropriate designated manager.
-
-Emergency access activities should be documented and reviewed following the event.
-
-**Identified Process Limitation:** Formal documentation defining emergency access authorization, monitoring, and post-event review responsibilities is incomplete.
-
-## 10. Automatic Logoff
-
-The claims management platform is configured to terminate inactive user sessions after a defined period of inactivity.
-
-The IT department is responsible for coordinating with the application provider to maintain session timeout configurations.
-
-Configuration evidence and periodic validation records are not consistently retained.
-
-## 11. Encryption and Decryption
-
-Encryption and decryption mechanisms are managed through the organization's approved systems and service providers.
-
-The IT department coordinates with the cloud platform provider to maintain encryption capabilities for stored ePHI.
-
-**Identified Process Limitation:** Documentation describing encryption configuration, key management responsibilities, and periodic validation is incomplete.
-
-## 12. Access Monitoring and Documentation
-
-The IT department maintains account administration records and access-related service tickets.
-
-These records may include:
-
-- Account provisioning requests.
-- Manager approvals.
-- Account modification requests.
-- Account termination activities.
-- Privileged account administration activities.
-
-Documentation is retained within the organization's IT service management environment.
-
-The IT Security Manager is responsible for overseeing adherence to this policy and coordinating corrective actions when access management deficiencies are identified.
-
-## 13. Policy Review
-
-This policy should be reviewed periodically and updated when significant organizational, regulatory, or technological changes occur.
-
-The IT Security Manager is responsible for coordinating policy reviews and obtaining management approval for substantive revisions.
-
-## 14. Regulatory References
-
-**HIPAA Security Rule:**
-
-- 45 CFR §164.308(a)(3) – Workforce Security.
-- 45 CFR §164.312(a) – Access Control.
-- 45 CFR §164.312(d) – Person or Entity Authentication.
-
-**Supporting Guidance:** NIST SP 800-66 Rev. 2, Implementing the HIPAA Security Rule: A Cybersecurity Resource Guide.
+**Document Status:** Synthetic evidence – pending review.
