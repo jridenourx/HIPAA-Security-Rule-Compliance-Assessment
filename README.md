@@ -6,7 +6,7 @@
 **Guidance Reference:** NIST SP 800-66 Rev. 2  
 **Assessment Period:** January 1, 2026 – October 31, 2026  
 **Assessment Snapshot:** October 31, 2026  
-**Assessment Status:** Control Testing Completed – Reporting and Remediation Planning In Progress
+**Assessment Status:** Assessment and Reporting Completed – Remediation Plan Documented
 
 ---
 
@@ -136,9 +136,11 @@ Identify:
 - Insufficient evidence of control operation.
 - Implementation specification considerations.
 
-### Phase 5: Findings Documentation
+### Phase 5: Control Testing and Findings
 
-Document identified issues, including:
+Document control-specific testing procedures, results, evidence limitations, and identified findings.
+
+Findings include:
 
 - Finding identification number.
 - Applicable HIPAA reference.
@@ -156,55 +158,94 @@ Develop corrective actions, remediation priorities, suggested ownership, target 
 
 Prepare a management summary communicating assessment results, significant findings, risk considerations, and recommended remediation priorities.
 
-## 6. Assessment Status Definitions
+## 6. Assessment Results
 
-The following assessment statuses are used to communicate control conclusions.
+Control testing was completed for all 13 selected controls.
 
-| Status | Definition |
-|---|---|
-| Effective | Available evidence supports that the control is appropriately designed and implemented for the assessed requirement. |
-| Partially Effective | Some control elements are documented or implemented, but gaps or inconsistencies remain. |
-| Ineffective | Available evidence demonstrates that the control is missing, materially deficient, or not implemented. |
-| Not Evidenced | Available documentation is insufficient to determine whether the control is implemented. |
-| Not Assessed | The control has not yet been evaluated. |
-| Not Applicable | The requirement or implementation specification does not apply to the defined organizational environment, with supporting rationale documented. |
+| Safeguard Category | Controls Assessed | Overall Results |
+|---|---:|---|
+| Administrative | 8 | 8 Partially Effective |
+| Physical | 1 | 1 Partially Effective |
+| Technical | 4 | 4 Partially Effective |
+| **Total** | **13** | **13 Partially Effective** |
 
-A control-level rating summarizes the overall assessment of the applicable standard. Individual implementation specifications and testing procedures may have different results.
+The assessment identified 15 formal findings:
 
-## 7. Assessment Limitations
+| Severity | Findings |
+|---|---:|
+| High | 10 |
+| Moderate | 5 |
+| Low | 0 |
+| **Total** | **15** |
 
-- This is a simulated portfolio project using fictional organizational information and synthetic evidence.
-- The assessment covers selected HIPAA Security Rule requirements rather than the complete HIPAA regulatory framework.
-- No production systems, actual ePHI, or real organizational records were reviewed.
-- No actual interviews, technical configuration reviews, vulnerability scans, or penetration tests were performed.
-- Findings and conclusions are based solely on the synthetic evidence developed for this exercise.
-- Assessment conclusions do not establish actual compliance by a healthcare organization.
-- This project does not constitute a formal HIPAA compliance certification, legal opinion, or independent compliance audit.
+One additional observation, H-06-01, concerns the lack of incident response execution evidence. It is tracked separately and is not included in the formal finding count.
 
-## 8. Assessment Deliverables
+A Partially Effective rating does not necessarily establish that a safeguard is absent. It indicates that the available evidence does not demonstrate full implementation or operating effectiveness.
 
-The project includes:
+## 7. Assessment Deliverables
+
+The completed project includes:
 
 - Assessment scope and methodology.
 - HIPAA Security Rule control assessment matrix.
-- Synthetic organizational policies and supporting evidence.
+- Eight synthetic organizational policies and supporting evidence documents.
 - Seven control-testing workpapers covering H-01 through H-13.
 - Consolidated Findings Register.
 - Corrective Action Plan.
-- Management assessment summary.
+- Management Assessment Summary.
 
-The consolidated Findings Register, Corrective Action Plan, and Management Assessment Summary are the remaining project deliverables.
+The Corrective Action Plan includes proposed remediation activities, suggested owners, target dates, validation procedures, and closure criteria. Dates and ownership assignments are illustrative management planning assumptions for this portfolio simulation.
+
+## 8. Repository Structure
+
+```text
+HIPAA-Security-Rule-Compliance-Assessment/
+│
+├── README.md
+│
+├── 01_Assessment_Scope/
+│   └── Assessment_Scope.md
+│
+├── 02_Control_Assessment/
+│   └── HIPAA_Control_Matrix.md
+│
+├── 03_Synthetic_Evidence/
+│   ├── E-01_Security_Risk_Analysis.md
+│   ├── E-02_Access_Control_Policy.md
+│   ├── E-03_Security_Awareness_Training_Records.md
+│   ├── E-04_Security_Incident_Response_Procedure.md
+│   ├── E-05_Contingency_Plan.md
+│   ├── E-06_Workstation_Security_Policy.md
+│   ├── E-07_Audit_Logging_Procedure.md
+│   └── E-08_Transmission_Security_Policy.md
+│
+├── 04_Control_Testing/
+│   ├── H-01_H-02_Risk_Analysis_and_Risk_Management_Testing.md
+│   ├── H-03_H-04_Workforce_Security_and_Information_Access_Management.md
+│   ├── H-05_H-06_Training_and_Incident_Procedures_Testing.md
+│   ├── H-07_H-08_Contingency_and_Workstation_Security_Testing.md
+│   ├── H-09_H-10_Access_Control_and_Activity_Review_Testing.md
+│   ├── H-11_H-12_Audit_Controls_and_Authentication_Testing.md
+│   └── H-13_Transmission_Security_Testing.md
+│
+├── 05_Findings_and_Remediation/
+│   ├── Findings_Register.md
+│   └── Corrective_Action_Plan.md
+│
+└── 06_Management_Reporting/
+    └── Management_Assessment_Summary.md
+```
 
 ## 9. Regulatory References
 
-- U.S. Department of Health and Human Services (HHS), HIPAA Security Rule.
-- HHS, Summary of the HIPAA Security Rule.
-- HHS, Security Rule Guidance Material.
-- 45 CFR §164.306(d), Required and Addressable Implementation Specifications.
-- NIST Special Publication 800-66 Revision 2, Implementing the HIPAA Security Rule: A Cybersecurity Resource Guide.
+- [U.S. Department of Health and Human Services (HHS) – HIPAA Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/index.html)
+- [HHS – Summary of the HIPAA Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html)
+- [HHS – Security Rule Guidance Material](https://www.hhs.gov/hipaa/for-professionals/security/guidance/index.html)
+- [45 CFR §164.306 – Security Standards: General Rules](https://www.ecfr.gov/current/title-45/section-164.306)
+- [NIST Special Publication 800-66 Revision 2 – Implementing the HIPAA Security Rule](https://csrc.nist.gov/pubs/sp/800/66/r2/final)
 
 ---
 
-**Assessment Status:** Control testing completed for all 13 selected controls. Consolidated findings, remediation planning, and management reporting remain in progress.
+**Assessment Status:** Control testing, findings documentation, remediation planning, and management reporting have been completed for the selected assessment scope.
 
-**Portfolio Disclaimer:** This scope document is part of a fictional compliance assessment created for educational and portfolio purposes. It does not represent an actual HIPAA audit, legal opinion, certification, or assessment of a real covered entity or business associate.
+**Portfolio Disclaimer:** This project is a fictional compliance assessment created for educational and portfolio purposes. It does not represent an actual HIPAA audit, legal opinion, certification, or assessment of a real covered entity or business associate.
